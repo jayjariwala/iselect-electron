@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Course Navigation</title>
+  <link rel="stylesheet" href="./assets/css/default/style.min.css" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+
+<body>
+  <div class="content">
+    <div id="jstree">
+    </div>
+    <a id="generateXML" class="button3 stick-to-right">Publish</a>
+  </div>
+  <script>
+    window.$ = window.jQuery = require('jquery');
+  </script>
+  <script>
+    require('./assets/js/renderer.js')
+  </script>
+  <script>
+    require('./assets/js/jstree.js')
+  </script>
+</body>
+
+</html>
