@@ -8,8 +8,16 @@ body {
 }
 
 .stick-to-right {
-  position: fixed;
-  bottom: 10px;
+  position: fixed !important;
+}
+
+.preview {
+  bottom: 15px;
+  right: 110px;
+}
+
+.publish {
+  bottom: 15px;
   right: 10px;
 }
 
@@ -31,4 +39,12 @@ a.button3 {
 
 a.button3:hover {
   background-color: #4095c6;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button-container {
+  margin: 0 auto;
 }

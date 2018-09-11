@@ -13,12 +13,12 @@ const zipGenerator = require('../middleware/zipGenerator');
 
 module.exports = function (html5json, xmljson) {
     let mainWindow = new BrowserWindow({
-        width: 900,
-        height: 500,
+        width: 1080,
+        height: 600,
     });
 
     mainWindow.loadURL(`file://${__dirname}/../views/navigation.html`);
-
+    mainWindow.webContents.openDevTools();
     const template = [{
             label: 'Edit',
             submenu: [{

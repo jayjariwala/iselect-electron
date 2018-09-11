@@ -8,21 +8,64 @@
   <title>Course Navigation</title>
   <link rel="stylesheet" href="./assets/css/default/style.min.css" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="stylesheet" href="./assets/css/material.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
-  <div class="content">
-    <div id="jstree">
+
+  <!-- The drawer is always open in large screens. The header is always shown,
+  even in small screens. -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <div class="mdl-layout-spacer"></div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+      mdl-textfield--floating-label mdl-textfield--align-right">
+          <div class="mdl-textfield__expandable-holder">
+            <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <h5 class="text-center">Templates</h5>
+      <div class="button-container">
+        <button class="mdl-button mdl-js-button align-center mdl-button--fab mdl-button--mini-fab mdl-button--colored">
+          <i class="material-icons">add</i>
+        </button>
+      </div>
+      <!-- Colored mini FAB button -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link " href="">Link</a>
+        <a class="mdl-navigation__link " href="">Link</a>
+        <a class="mdl-navigation__link " href="">Link</a>
+        <a class="mdl-navigation__link " href="">Link</a>
+      </nav>
     </div>
-    <a id="generateXML" class="button3 stick-to-right">Publish</a>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <!-- Your content goes here -->
+        <div id="jstree" class="tree"></div>
+      </div>
+      <!-- Raised button with ripple -->
+      <button class=" stick-to-right preview mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+        Button
+      </button>
+      <!-- Colored raised button -->
+      <button id="generateXML" class="stick-to-right publish mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+        Publish
+      </button>
+    </main>
   </div>
+
   <script>
     window.$ = window.jQuery = require('jquery');
   </script>
   <script>
+    require('./assets/js/material.min.js')
     require('./assets/js/renderer.js')
-  </script>
-  <script>
     require('./assets/js/jstree.js')
   </script>
 </body>

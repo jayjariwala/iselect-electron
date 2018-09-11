@@ -1112,72 +1112,7 @@
   </layouts>
   <nav_data>
     <outline>
-      <links>
-        <slidelink HideLink="false" displaytext="Welcome" expand="false" slideid="_player.5Zpf63gkja8">
-          <links>
-            <slidelink HideLink="false" displaytext="Welcome" expand="false" slideid="_player.5Zpf63gkja8.6bPikcZKAqa"/>
-            <slidelink HideLink="false" displaytext="Primary Course Objective" expand="false" slideid="_player.5Zpf63gkja8.6RNrVHMhtxT"/>
-            <slidelink HideLink="false" displaytext="Course Objectives" expand="false" slideid="_player.5Zpf63gkja8.6WtAxkxgZIp"/>
-          </links>
-        </slidelink>
-        <slidelink HideLink="false" displaytext="Introduction to i-STAT" expand="false" slideid="_player.6nQoeG2o7qg">
-          <links>
-            <slidelink HideLink="false" displaytext="Imagine" expand="false" slideid="_player.6nQoeG2o7qg.5pJJDluQp5j"/>
-            <slidelink HideLink="false" displaytext="i-STAT System Bedside Testing" expand="false" slideid="_player.6nQoeG2o7qg.68Oc3Px6Rii"/>
-            <slidelink HideLink="false" displaytext="Components of the i-STAT System" expand="false" slideid="_player.6nQoeG2o7qg.5csmMLfUNCt"/>
-            <slidelink HideLink="false" displaytext="The i-STAT System Testing Process" expand="false" slideid="_player.6nQoeG2o7qg.6B2hPeTwX4Y"/>
-            <slidelink HideLink="false" displaytext="Traditional Lab Process vs i-STAT Process" expand="false" slideid="_player.6nQoeG2o7qg.6MKAdcs4sy5"/>
-            <slidelink HideLink="false" displaytext="Why Should You Care about Switching to the i-STAT System?" expand="false" slideid="_player.6nQoeG2o7qg.6YCCoQuc8f1"/>
-            <slidelink HideLink="false" displaytext="Goals of the i-STAT System Training Program" expand="false" slideid="_player.6nQoeG2o7qg.6FGhtTJL05W"/>
-          </links>
-        </slidelink>
-        <slidelink HideLink="false" displaytext="Sample Collection and Handling" expand="false" slideid="_player.6m6XeZZ4X5o">
-          <links>
-            <slidelink HideLink="false" displaytext="Introduction" expand="false" slideid="_player.6m6XeZZ4X5o.6PF24VuLzUQ"/>
-            <slidelink HideLink="false" displaytext="Learning Objectives" expand="false" slideid="_player.6m6XeZZ4X5o.5mCkVtcGhQL"/>
-            <slidelink HideLink="false" displaytext="i-STAT Cartridge Overview" expand="false" slideid="_player.6m6XeZZ4X5o.6ZmVB11h0sD"/>
-            <slidelink HideLink="false" displaytext="i-STAT Cartridge Overview, continued" expand="false" slideid="_player.6m6XeZZ4X5o.6EPZF83k5VE"/>
-            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.6m6XeZZ4X5o.6N0WA5kUBZa"/>
-            <slidelink HideLink="false" displaytext="i-STAT Cartridge Overview, continued" expand="false" slideid="_player.6m6XeZZ4X5o.6q3ehoSPXaI"/>
-            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.6m6XeZZ4X5o.6jbOMsE4Uhz"/>
-            <slidelink HideLink="false" displaytext="i-STAT Cartridge Overview" expand="false" slideid="_player.6m6XeZZ4X5o.6luQzrgvcK4"/>
-            <slidelink HideLink="false" displaytext="i-STAT Cartridge Overview, continued" expand="false" slideid="_player.6m6XeZZ4X5o.5oNfqNxxMeL"/>
-            <slidelink HideLink="false" displaytext="i-STAT Cartridge Overview, continued" expand="false" slideid="_player.6m6XeZZ4X5o.6ljbkjWn9s4"/>
-            <slidelink HideLink="false" displaytext="i-STAT Cartridge Components" expand="false" slideid="_player.6m6XeZZ4X5o.5XotqIjrlYq"/>
-            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.6m6XeZZ4X5o.6InbL61NxJA"/>
-            <slidelink HideLink="false" displaytext="Sample Collection Techniques" expand="false" slideid="_player.6m6XeZZ4X5o.5o4ky0TXRrM"/>
-            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.6m6XeZZ4X5o.6er3iHWKkiS"/>
-            <slidelink HideLink="false" displaytext="General Sample Collection Techniques" expand="false" slideid="_player.6m6XeZZ4X5o.6XLAmaMMAer"/>
-            <slidelink HideLink="false" displaytext="Additional Sample Collection Techniques Using a Capillary Tube" expand="false" slideid="_player.6m6XeZZ4X5o.69MDQrXqQLd"/>
-            <slidelink HideLink="false" displaytext="Additional Sample Collection Techniques Using a Fingerstick" expand="false" slideid="_player.6m6XeZZ4X5o.5bNhC9ycMOt"/>
-            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.6m6XeZZ4X5o.6e7bYUrTBoj"/>
-            <slidelink HideLink="false" displaytext="Factors That May Affect Results" expand="false" slideid="_player.6m6XeZZ4X5o.5o0Oxw1jVRn"/>
-            <slidelink HideLink="false" displaytext="Factors That May Affect Sodium Results" expand="false" slideid="_player.6m6XeZZ4X5o.5VGs7x9sL3c"/>
-            <slidelink HideLink="false" displaytext="Factors That May Affect Potassium Results" expand="false" slideid="_player.6m6XeZZ4X5o.6m531efJXRO"/>
-            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.6m6XeZZ4X5o.5pGKkKngIwk"/>
-            <slidelink HideLink="false" displaytext="Factors That May Affect Glucose Results" expand="false" slideid="_player.6m6XeZZ4X5o.5kpTc5t2MWZ"/>
-            <slidelink HideLink="false" displaytext="Factors That May Affect Creatinine Results" expand="false" slideid="_player.6m6XeZZ4X5o.5zbOmingUyZ"/>
-            <slidelink HideLink="false" displaytext="Factors That May Affect Lactate Results" expand="false" slideid="_player.6m6XeZZ4X5o.6WKFualNCsL"/>
-            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.6m6XeZZ4X5o.5y954CLQbyh"/>
-            <slidelink HideLink="false" displaytext="Factors That May Affect Hematocrit Results" expand="false" slideid="_player.6m6XeZZ4X5o.6kdaowIUcWj"/>
-            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.6m6XeZZ4X5o.6OOu47eoMnB"/>
-            <slidelink HideLink="false" displaytext="Factors That May Affect Ionized Calcium Results" expand="false" slideid="_player.6m6XeZZ4X5o.6Am3G26JjP0"/>
-            <slidelink HideLink="false" displaytext="Factors That May Affect pH Results" expand="false" slideid="_player.6m6XeZZ4X5o.5qzxr0ZiM3F"/>
-            <slidelink HideLink="false" displaytext="Factors That May Affect pCO2 Results When Using a Blood Gas Cartridge" expand="false" slideid="_player.6m6XeZZ4X5o.6f2Vjz6XiGK"/>
-            <slidelink HideLink="false" displaytext="Factors That May Affect pCO2 Results When Using an EC8+ Cartridge" expand="false" slideid="_player.6m6XeZZ4X5o.5s83vPnz3lp"/>
-            <slidelink HideLink="false" displaytext="Factors That May Affect pO2 Results" expand="false" slideid="_player.6m6XeZZ4X5o.5pBDjewJwpI"/>
-            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.6m6XeZZ4X5o.6RCEtr9juiN"/>
-            <slidelink HideLink="false" displaytext="Factors That May Affect Cardiac Marker Results" expand="false" slideid="_player.6m6XeZZ4X5o.6iUlMg15o4m"/>
-            <slidelink HideLink="false" displaytext="Factors That May Affect ACT Results" expand="false" slideid="_player.6m6XeZZ4X5o.6BqFbC1wSdQ"/>
-            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.6m6XeZZ4X5o.5md2Fk0OLBk"/>
-            <slidelink HideLink="false" displaytext="Factors That May Affect TCO2 Results" expand="false" slideid="_player.6m6XeZZ4X5o.5bEoqZCn8PI"/>
-            <slidelink HideLink="false" displaytext="Factors That May Affect Prothrombin Time Results" expand="false" slideid="_player.6m6XeZZ4X5o.6b7qBF695tP"/>
-            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.6m6XeZZ4X5o.6ELvQJhKqX5"/>
-            <slidelink HideLink="false" displaytext="Summary" expand="false" slideid="_player.6m6XeZZ4X5o.6O9bsO6DeEH"/>
-            <slidelink HideLink="false" displaytext="Congratulations" expand="false" slideid="_player.6m6XeZZ4X5o.6DbJBM2h6MB"/>
-          </links>
-        </slidelink>
-      </links>
+      <links/>
     </outline>
   </nav_data>
   <resource_data description=""/>
