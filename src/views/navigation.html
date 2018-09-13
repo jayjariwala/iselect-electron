@@ -20,9 +20,10 @@
 mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
+        <span class="nav-title align-center">Course Navigation</span>
         <div class="mdl-layout-spacer"></div>
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
-      mdl-textfield--floating-label mdl-textfield--align-right">
+      mdl-textfield--floating-label mdl-textfield--align-center">
           <div class="mdl-textfield__expandable-holder">
             <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
           </div>
@@ -32,7 +33,7 @@ mdl-layout--fixed-header">
     <div class="mdl-layout__drawer">
       <h5 class="text-center">Templates</h5>
       <div class="button-container">
-        <button class="mdl-button mdl-js-button align-center mdl-button--fab mdl-button--mini-fab mdl-button--colored">
+        <button id="show-dialog" class="mdl-button mdl-js-button align-center mdl-button--fab mdl-button--mini-fab mdl-button--colored">
           <i class="material-icons">add</i>
         </button>
       </div>
@@ -51,19 +52,34 @@ mdl-layout--fixed-header">
       </div>
       <!-- Raised button with ripple -->
       <button class=" stick-to-right preview mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-        Button
+        Preview
       </button>
       <!-- Colored raised button -->
       <button id="generateXML" class="stick-to-right publish mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
         Publish
       </button>
+      <dialog class="mdl-dialog">
+        <h4 class="mdl-dialog__title">New Template</h4>
+        <div class="mdl-dialog__content">
+          <!-- Numeric Textfield -->
+          <form action="#">
+            <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input template-name" type="text" id="sample2">
+              <label class="mdl-textfield__label" for="sample2">Template Name</label>
+              <span class="mdl-textfield__error">Enter Title!</span>
+            </div>
+          </form>
+        </div>
+        <div class="mdl-dialog__actions">
+          <button type="button" class="mdl-button save-template">Save</button>
+          <button type="button" class="mdl-button close">Cancel</button>
+        </div>
+      </dialog>
     </main>
   </div>
 
   <script>
     window.$ = window.jQuery = require('jquery');
-  </script>
-  <script>
     require('./assets/js/material.min.js')
     require('./assets/js/renderer.js')
     require('./assets/js/jstree.js')

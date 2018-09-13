@@ -127,6 +127,7 @@ ipc.on('sendData', (event, html5json, xmljson) => {
   // Generate Button click listener
   $('#generateXML').on('click', function () {
     const selectedTree = $('#jstree').jstree('get_selected');
+    console.log(selectedTree);
     const manipulatedXmlNav = generateXML(originalxmlJSON, selectedTree);
     let newXmlNavBar = JSON.parse(JSON.stringify(originalxmlJSON));
     newXmlNavBar.bwFrame.nav_data[0].outline[0].links[0].slidelink = manipulatedXmlNav;
@@ -138,10 +139,40 @@ ipc.on('sendData', (event, html5json, xmljson) => {
 
 })
 
+$('.preview').on('click', () => {
+  $('#jstree').jstree().check_node(["0", "1", "0.0", "0.1", "0.2", "1.0", "1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "2.0", "2.1"]);
+});
+
 ipc.on('savedFile', (event, filePath) => {
   console.log("saved file", filePath);
   shell.showItemInFolder(filePath);
 })
+
+var dialog = document.querySelector('dialog');
+var showDialogButton = document.querySelector('#show-dialog');
+if (!dialog.showModal) {
+  dialogPolyfill.registerDialog(dialog);
+}
+showDialogButton.addEventListener('click', function () {
+  dialog.showModal();
+});
+dialog.querySelector('.close').addEventListener('click', function () {
+  dialog.close();
+});
+
+
+$('.save-template').click((e) => {
+  const templateName = $('.template-name').val();
+  if (templateName) {
+    ipc.send('handle-template', templateName);
+    $('.template-name').val("");
+    dialog.close();
+  } else {
+    $('.mdl-textfield__error').css('visibility', 'visible');
+    e.preventDefault();
+  }
+});
+
 
 // ipc.on('jsondata', (event, json) => {
 // })

@@ -48,3 +48,18 @@ a.button3:hover {
 .button-container {
   margin: 0 auto;
 }
+
+.jstree {
+  margin: 15px 0 0 15px;
+}
+
+.nav-title {
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.jstree-node {
+  font-size: 18px;
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: rgba(0, 0, 0, .54);
+}

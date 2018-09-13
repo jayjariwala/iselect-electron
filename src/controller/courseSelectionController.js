@@ -10,13 +10,13 @@ const generateJS = require('../middleware/generateJSFrame.js');
 // const fetchHtmlFrame = require('../middleware/fetchHtmlFrame.js');
 const ipc = electron.ipcMain;
 const zipGenerator = require('../middleware/zipGenerator');
+const handleTemplate = require('../middleware/handleTemplate.js');
 
 module.exports = function (html5json, xmljson) {
     let mainWindow = new BrowserWindow({
         width: 1080,
         height: 600,
     });
-
     mainWindow.loadURL(`file://${__dirname}/../views/navigation.html`);
     mainWindow.webContents.openDevTools();
     const template = [{
@@ -111,13 +111,6 @@ module.exports = function (html5json, xmljson) {
     ipc.on('fetch_tree_data', _ => {
         mainWindow.webContents.send('sendData', html5json, xmljson);
     })
-    // ipc.on('load_tree_data', _ => {
-    //     treeLoader(xmljson => {
-    //         fetchHtmlFrame(html5json => {
-    //             mainWindow.webContents.send('sendData', html5json, xmljson);
-    //         });
-    //     });
-    // })
 
     ipc.on('generateNavBar', (event, newXmlNavBar, newHtmlNavBar) => {
         generateXML(newXmlNavBar).then((success, fail) => {
@@ -141,4 +134,9 @@ module.exports = function (html5json, xmljson) {
             }
         });
     })
+
+    ipc.on('handle-template', (e, templateName) => {
+        handleTemplate(templateName);
+    });
+
 }
