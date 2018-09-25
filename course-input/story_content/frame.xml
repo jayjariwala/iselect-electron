@@ -1112,32 +1112,7 @@
   </layouts>
   <nav_data>
     <outline>
-      <links>
-        <slidelink HideLink="false" displaytext="Welcome" expand="false" slideid="_player.5Zpf63gkja8">
-          <links>
-            <slidelink HideLink="false" displaytext="Welcome" expand="false" slideid="_player.5Zpf63gkja8.6bPikcZKAqa"/>
-            <slidelink HideLink="false" displaytext="Primary Course Objective" expand="false" slideid="_player.5Zpf63gkja8.6RNrVHMhtxT"/>
-            <slidelink HideLink="false" displaytext="Course Objectives" expand="false" slideid="_player.5Zpf63gkja8.6WtAxkxgZIp"/>
-          </links>
-        </slidelink>
-        <slidelink HideLink="false" displaytext="Introduction to i-STAT" expand="false" slideid="_player.6nQoeG2o7qg">
-          <links>
-            <slidelink HideLink="false" displaytext="Imagine" expand="false" slideid="_player.6nQoeG2o7qg.5pJJDluQp5j"/>
-            <slidelink HideLink="false" displaytext="i-STAT System Bedside Testing" expand="false" slideid="_player.6nQoeG2o7qg.68Oc3Px6Rii"/>
-            <slidelink HideLink="false" displaytext="Components of the i-STAT System" expand="false" slideid="_player.6nQoeG2o7qg.5csmMLfUNCt"/>
-            <slidelink HideLink="false" displaytext="The i-STAT System Testing Process" expand="false" slideid="_player.6nQoeG2o7qg.6B2hPeTwX4Y"/>
-            <slidelink HideLink="false" displaytext="Traditional Lab Process vs i-STAT Process" expand="false" slideid="_player.6nQoeG2o7qg.6MKAdcs4sy5"/>
-            <slidelink HideLink="false" displaytext="Why Should You Care about Switching to the i-STAT System?" expand="false" slideid="_player.6nQoeG2o7qg.6YCCoQuc8f1"/>
-            <slidelink HideLink="false" displaytext="Goals of the i-STAT System Training Program" expand="false" slideid="_player.6nQoeG2o7qg.6FGhtTJL05W"/>
-          </links>
-        </slidelink>
-        <slidelink HideLink="false" displaytext="i-STAT Orientation" expand="false" slideid="_player.66YQmnMCxiW">
-          <links>
-            <slidelink HideLink="false" displaytext="Welcome and Learning Objectives" expand="false" slideid="_player.66YQmnMCxiW.5xYq3PtDqHK"/>
-            <slidelink HideLink="false" displaytext="Handheld External Components" expand="false" slideid="_player.66YQmnMCxiW.6EzTLl8MYdj"/>
-          </links>
-        </slidelink>
-      </links>
+      <links/>
     </outline>
   </nav_data>
   <resource_data description=""/>

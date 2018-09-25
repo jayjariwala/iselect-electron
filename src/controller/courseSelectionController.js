@@ -10,7 +10,9 @@ const generateJS = require('../middleware/generateJSFrame.js');
 // const fetchHtmlFrame = require('../middleware/fetchHtmlFrame.js');
 const ipc = electron.ipcMain;
 const zipGenerator = require('../middleware/zipGenerator');
-const handleTemplate = require('../middleware/handleTemplate.js');
+const handleTemplate = require('../middleware/handleTemplate');
+const fetchTemplate = require('../middleware/fetchTemplate');
+const deleteTemplate = require('../middleware/deleteTemplate');
 
 module.exports = function (html5json, xmljson) {
     let mainWindow = new BrowserWindow({
@@ -135,8 +137,41 @@ module.exports = function (html5json, xmljson) {
         });
     })
 
-    ipc.on('handle-template', (e, templateName) => {
-        handleTemplate(templateName);
+    ipc.on('handle-template', (e, templateName, selectionTree = []) => {
+        console.log(templateName, selectionTree);
+        handleTemplate(templateName, selectionTree).then((success, fail) => {
+            if (success === 'file-updated') {
+                mainWindow.webContents.send('template-added');
+            } else {
+                mainWindow.webContents.send('template-exist');
+            }
+        });
     });
+
+    ipc.on('fetch-templates', () => {
+        fetchTemplate().then((success, fail) => {
+            if (success) {
+                mainWindow.webContents.send('fetched-templates', success);
+            }
+        });
+    });
+
+    ipc.on('fetch-templates-activeted', () => {
+        fetchTemplate().then((success, fail) => {
+            if (success) {
+                mainWindow.webContents.send('fetched-template-activated', success);
+            }
+        });
+    })
+
+    ipc.on('delete-template', (e, id) => {
+        deleteTemplate(id).then((success, fail) => {
+            fetchTemplate().then((suc, fail) => {
+                if (suc) {
+                    mainWindow.webContents.send('fetched-templates', suc);
+                }
+            })
+        });
+    })
 
 }

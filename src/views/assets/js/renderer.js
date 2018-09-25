@@ -6,6 +6,7 @@ const {
 } = require('electron');
 
 
+
 function generateList(links) {
   return links.map((link, headingNum) => {
     return `<ul><li id="${headingNum}" >${link.$.displaytext} <ul>
@@ -34,6 +35,7 @@ function generateJS(originalJSON, selectedNav) {
       }
     }
   });
+
 
   originalNav.map((heading, headingIndex) => {
     let manipulatedObj = {
@@ -143,12 +145,65 @@ $('.preview').on('click', () => {
   $('#jstree').jstree().check_node(["0", "1", "0.0", "0.1", "0.2", "1.0", "1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "2.0", "2.1"]);
 });
 
+function templateBox() {
+  $('dialog').html(`<h4 class="mdl-dialog__title">New Template</h4>
+  <div class="mdl-dialog__content">
+    <!-- Numeric Textfield -->
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input template-name" type="text" id="sample2">
+        <label class="mdl-textfield__label" for="sample2">Template Name</label>
+        <span class="mdl-textfield__error"></span>
+      </div>
+    </form>
+  </div>
+  <div class="mdl-dialog__actions">
+    <button type="button" class="mdl-button save-template">Save</button>
+    <button type="button" class="mdl-button close">Cancel</button>
+  </div>`);
+}
+
+templateBox();
+
+function errorBox() {
+  $('dialog').html(`<h6 class="mdl-dialog__title error-title"><i class="material-icons err-icon">error
+  </i>Topic Selection</h6>
+  <div class="mdl-dialog__content">
+    <!-- Numeric Textfield -->
+    <p>Please select course topics to save the template</p>
+  </div>
+  <div class="mdl-dialog__actions">
+    <button type="button" class="mdl-button close">OK</button>
+  </div>`);
+  dialog.showModal();
+}
+
+$('.save').on('click', () => {
+  const selectedTree = $('#jstree').jstree('get_selected');
+  if ($('.template-navigation a').length === 0) {
+    // open template dialog
+    if (selectedTree.length === 0) {
+      errorBox();
+    } else {
+      dialog.showModal();
+    }
+  } else {
+    if (selectedTree.length === 0) {
+      errorBox();
+    } else {
+      //save the current template in the file
+
+    }
+  }
+})
+
 ipc.on('savedFile', (event, filePath) => {
   console.log("saved file", filePath);
   shell.showItemInFolder(filePath);
 })
 
 var dialog = document.querySelector('dialog');
+
 var showDialogButton = document.querySelector('#show-dialog');
 if (!dialog.showModal) {
   dialogPolyfill.registerDialog(dialog);
@@ -156,22 +211,90 @@ if (!dialog.showModal) {
 showDialogButton.addEventListener('click', function () {
   dialog.showModal();
 });
-dialog.querySelector('.close').addEventListener('click', function () {
+
+dialog.addEventListener('click', (e) => {
+  if ($(e.target).attr('class').match('close')) {
+    dialog.close();
+    templateBox();
+  } else if ($(e.target).attr('class').match('save')) {
+    const templateName = $('.template-name').val();
+    let selectedTree = [];
+    if (templateName) {
+      if ($('.template-navigation a').length === 0) {
+        selectedTree = $('#jstree').jstree('get_selected');
+        ipc.send('handle-template', templateName, selectedTree);
+      } else {
+        ipc.send('handle-template', templateName);
+      }
+      // $('.template-name').val("");
+      // dialog.close();
+    } else {
+      $('.mdl-textfield__error').html('Template Name cannot be empty');
+      $('.mdl-textfield__error').css('visibility', 'visible');
+      e.preventDefault();
+    }
+  }
+})
+
+ipc.on('template-added', () => {
+  $('.template-name').val("");
+  $('.mdl-textfield__error').css('visibility', 'hidden');
+  ipc.send('fetch-templates-activeted');
   dialog.close();
 });
 
+$('.template-name').keyup(() => {
+  $('.mdl-textfield__error').css('visibility', 'hidden');
+})
 
-$('.save-template').click((e) => {
-  const templateName = $('.template-name').val();
-  if (templateName) {
-    ipc.send('handle-template', templateName);
-    $('.template-name').val("");
-    dialog.close();
+ipc.on('template-exist', () => {
+  $('.mdl-textfield__error').html('Template already exist. try different name!');
+  $('.template-name').val("");
+  $('.mdl-textfield__error').css('visibility', 'visible');
+})
+
+
+$(document).ready((yes) => {
+  ipc.send('fetch-templates');
+  // $('.template-navigation').html(' <p class="no-data">NO TEMPLATE</p>');
+})
+
+
+ipc.on('fetched-templates', (e, templates) => {
+  $('.template-navigation').html(templates);
+  if ($('.current').length === 0) {
+    // uncheck all
+    $('#jstree').jstree().uncheck_all();
   } else {
-    $('.mdl-textfield__error').css('visibility', 'visible');
-    e.preventDefault();
+    $('#jstree').jstree().check_node($('.current').data('id').split(','));
   }
 });
+
+ipc.on('fetched-template-activated', (e, template) => {
+
+  $('.template-navigation').html(template);
+  $('.template-navigation a').removeClass('current');
+  $('.template-navigation a:last-child').addClass('current');
+  if ($('.template-navigation a:last-child').data('id') === "") {
+    $('#jstree').jstree().uncheck_all();
+  } else {
+    $('#jstree').jstree().check_node($('.template-navigation a:last-child').data('id').split(','));
+  }
+})
+
+$('.template-navigation').click((e) => {
+  if (e.target.matches('i')) {
+    ipc.send('delete-template', $(e.target).data('id'));
+  }
+  if (!e.target.matches('a')) return;
+  e.delegateTarget.childNodes.forEach((template) => {
+    $(template).removeClass('current');
+  });
+  let tempId = $(e.target).data('id').split(",");
+  $(e.target).addClass('current');
+  $('#jstree').jstree().uncheck_all();
+  $('#jstree').jstree().check_node(tempId);
+})
 
 
 // ipc.on('jsondata', (event, json) => {
