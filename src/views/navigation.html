@@ -33,7 +33,7 @@ mdl-layout--fixed-header">
     <div class="mdl-layout__drawer">
       <h5 class="text-center">Templates</h5>
       <div class="button-container">
-        <button id="show-dialog" class="mdl-button mdl-js-button add-icon align-center mdl-button--fab mdl-button--mini-fab mdl-button--colored">
+        <button id="show-template-dialog" class="mdl-button mdl-js-button add-icon align-center mdl-button--fab mdl-button--mini-fab mdl-button--colored">
           <i class="material-icons ">add</i>
         </button>
       </div>
@@ -63,6 +63,32 @@ mdl-layout--fixed-header">
         Save
       </button>
       <dialog class="mdl-dialog template-dialog">
+        <h4 class="mdl-dialog__title">New Template</h4>
+        <div class="mdl-dialog__content">
+          <!-- Numeric Textfield -->
+          <form action="#">
+            <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input template-name" type="text" id="sample2">
+              <label class="mdl-textfield__label" for="sample2">Template Name</label>
+              <span class="mdl-textfield__error"></span>
+            </div>
+          </form>
+        </div>
+        <div class="mdl-dialog__actions">
+          <button type="button" class="mdl-button save-template">Save</button>
+          <button type="button" class="mdl-button close-template">Cancel</button>
+        </div>
+      </dialog>
+      <dialog class="mdl-dialog error-dialog">
+        <h6 class="mdl-dialog__title error-title">
+          <i class="material-icons err-icon">error</i>Topic Selection</h6>
+        <div class="mdl-dialog__content">
+          <!-- Numeric Textfield -->
+          <p>Please select course topics to save the template</p>
+        </div>
+        <div class="mdl-dialog__actions">
+          <button type="button" class="mdl-button close-error">OK</button>
+        </div>
       </dialog>
     </main>
   </div>

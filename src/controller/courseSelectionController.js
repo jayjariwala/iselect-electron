@@ -13,6 +13,7 @@ const zipGenerator = require('../middleware/zipGenerator');
 const handleTemplate = require('../middleware/handleTemplate');
 const fetchTemplate = require('../middleware/fetchTemplate');
 const deleteTemplate = require('../middleware/deleteTemplate');
+const updateNavigation = require('../middleware/update-navigation');
 
 module.exports = function (html5json, xmljson) {
     let mainWindow = new BrowserWindow({
@@ -172,6 +173,10 @@ module.exports = function (html5json, xmljson) {
                 }
             })
         });
+    })
+
+    ipc.on('update-template-data', (e, tId, selectedTree) => {
+        updateNavigation(tId, selectedTree);
     })
 
 }

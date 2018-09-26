@@ -6,13 +6,13 @@ const templateSelection = [];
 function formatTemplates(templates) {
     const templateList = JSON.parse(templates).map((templateList, index) => {
         if (index === 0) {
-            return `<a class="mdl-navigation__link current" href="#" data-id="${templateList.treeSelection}">${templateList.template}
+            return `<a class="mdl-navigation__link current" href="#" data-id="${templateList.treeSelection}" data-tid="${templateList.tempId}" >${templateList.template}
         <button type="button" class="mdl-chip__action del-icon" >
           <i class="material-icons" data-id="${templateList.tempId}">delete</i>
         </button>
       </a>`
         } else {
-            return `<a class="mdl-navigation__link" href="#" data-id="${templateList.treeSelection}">${templateList.template}
+            return `<a class="mdl-navigation__link" href="#" data-id="${templateList.treeSelection}" data-tid="${templateList.tempId}" >${templateList.template}
             <button type="button" class="mdl-chip__action del-icon" >
               <i class="material-icons" data-id="${templateList.tempId}">delete</i>
             </button>
