@@ -12,7 +12,7 @@ module.exports = function (templateId, selectionTree) {
                 }
             });
             fs.writeFile(file, JSON.stringify(templates), (err) => {
-                console.log("suceessfully written");
+                resolve(templateId);
             })
         })
     })

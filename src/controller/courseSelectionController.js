@@ -176,7 +176,11 @@ module.exports = function (html5json, xmljson) {
     })
 
     ipc.on('update-template-data', (e, tId, selectedTree) => {
-        updateNavigation(tId, selectedTree);
+        updateNavigation(tId, selectedTree).then((success, fail) => {
+            if (success) {
+
+            }
+        });
     })
 
 }
