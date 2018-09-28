@@ -1112,7 +1112,165 @@
   </layouts>
   <nav_data>
     <outline>
-      <links/>
+      <links>
+        <slidelink HideLink="false" displaytext="Introduction to i-STAT" expand="false" slideid="_player.6nQoeG2o7qg">
+          <links>
+            <slidelink HideLink="false" displaytext="Imagine" expand="false" slideid="_player.6nQoeG2o7qg.5pJJDluQp5j"/>
+            <slidelink HideLink="false" displaytext="i-STAT System Bedside Testing" expand="false" slideid="_player.6nQoeG2o7qg.68Oc3Px6Rii"/>
+            <slidelink HideLink="false" displaytext="Components of the i-STAT System" expand="false" slideid="_player.6nQoeG2o7qg.5csmMLfUNCt"/>
+            <slidelink HideLink="false" displaytext="The i-STAT System Testing Process" expand="false" slideid="_player.6nQoeG2o7qg.6B2hPeTwX4Y"/>
+            <slidelink HideLink="false" displaytext="Traditional Lab Process vs i-STAT Process" expand="false" slideid="_player.6nQoeG2o7qg.6MKAdcs4sy5"/>
+            <slidelink HideLink="false" displaytext="Why Should You Care about Switching to the i-STAT System?" expand="false" slideid="_player.6nQoeG2o7qg.6YCCoQuc8f1"/>
+            <slidelink HideLink="false" displaytext="Goals of the i-STAT System Training Program" expand="false" slideid="_player.6nQoeG2o7qg.6FGhtTJL05W"/>
+          </links>
+        </slidelink>
+        <slidelink HideLink="false" displaytext="i-STAT Orientation" expand="false" slideid="_player.66YQmnMCxiW">
+          <links>
+            <slidelink HideLink="false" displaytext="Welcome and Learning Objectives" expand="false" slideid="_player.66YQmnMCxiW.5xYq3PtDqHK"/>
+            <slidelink HideLink="false" displaytext="Handheld External Components" expand="false" slideid="_player.66YQmnMCxiW.6EzTLl8MYdj"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.66YQmnMCxiW.5oOUb9gx3VV"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.66YQmnMCxiW.6i0FEABzcZ4"/>
+            <slidelink HideLink="false" displaytext="Batteries: Disposable 9 Volt" expand="false" slideid="_player.66YQmnMCxiW.6juRIYD4Lqs"/>
+            <slidelink HideLink="false" displaytext="Changing the Batteries: Rechargeable" expand="false" slideid="_player.66YQmnMCxiW.666SCJE0FSN"/>
+            <slidelink HideLink="false" displaytext="Changing the Batteries: Charging the Rechargeable Battery Pack" expand="false" slideid="_player.66YQmnMCxiW.6IyjaI82RfP"/>
+            <slidelink HideLink="false" displaytext="The Infrared Communication Window" expand="false" slideid="_player.66YQmnMCxiW.5tXAg1piTSy"/>
+            <slidelink HideLink="false" displaytext="The Barcode Scanner" expand="false" slideid="_player.66YQmnMCxiW.5zKw1gwExRE"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.66YQmnMCxiW.67z9yCSB3bP"/>
+            <slidelink HideLink="false" displaytext="Handheld Display Screen" expand="false" slideid="_player.66YQmnMCxiW.6QnZRTEqHwq"/>
+            <slidelink HideLink="false" displaytext="Handheld Keys: Arrow Keys" expand="false" slideid="_player.66YQmnMCxiW.5vOG9SsdkkN"/>
+            <slidelink HideLink="false" displaytext="Handheld Keys: ABC Key" expand="false" slideid="_player.66YQmnMCxiW.6lFaqsbdnlO"/>
+            <slidelink HideLink="false" displaytext="Handheld Keys: Numeric Keys and Decimal Point Key" expand="false" slideid="_player.66YQmnMCxiW.67V5EUH44KI"/>
+            <slidelink HideLink="false" displaytext="Handheld Keys: Menu Key" expand="false" slideid="_player.66YQmnMCxiW.69trpIsSWHh"/>
+            <slidelink HideLink="false" displaytext="Handheld Keys: Power Key" expand="false" slideid="_player.66YQmnMCxiW.6CZ6oSCyKY9"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.66YQmnMCxiW.6CEicIPcEG7"/>
+            <slidelink HideLink="false" displaytext="Handheld Cartridge Port" expand="false" slideid="_player.66YQmnMCxiW.63i35yJflki"/>
+            <slidelink HideLink="false" displaytext="Handheld Test Menu" expand="false" slideid="_player.66YQmnMCxiW.5jUVwqnYH3X"/>
+            <slidelink HideLink="false" displaytext="Administration Menu: Analyzer Status" expand="false" slideid="_player.66YQmnMCxiW.6fsXVn4pwxR"/>
+            <slidelink HideLink="false" displaytext="Administration Menu: Data Review" expand="false" slideid="_player.66YQmnMCxiW.6nLqsQ9NlWE"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.66YQmnMCxiW.6Qy2d9LcFuq"/>
+            <slidelink HideLink="false" displaytext="General Cartridge Information" expand="false" slideid="_player.66YQmnMCxiW.5pzdSnnxRdP"/>
+            <slidelink HideLink="false" displaytext="Cleaning the Handheld" expand="false" slideid="_player.66YQmnMCxiW.5brsp84Y7ex"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.66YQmnMCxiW.69FeyAjfV64"/>
+            <slidelink HideLink="false" displaytext="Internal Electronic Simulator" expand="false" slideid="_player.66YQmnMCxiW.5lptTIG2Lu3"/>
+            <slidelink HideLink="false" displaytext="External Electronic Simulator" expand="false" slideid="_player.66YQmnMCxiW.62S3QQ2J4Eo"/>
+            <slidelink HideLink="false" displaytext="Summary" expand="false" slideid="_player.66YQmnMCxiW.6Kh9guvV4Hn"/>
+            <slidelink HideLink="false" displaytext="Congratulations" expand="false" slideid="_player.66YQmnMCxiW.5qNAiMDc4MD"/>
+          </links>
+        </slidelink>
+        <slidelink HideLink="false" displaytext="Patient Test" expand="false" slideid="_player.6j4h2cjAuvM">
+          <links>
+            <slidelink HideLink="false" displaytext="Welcome and Learning Objectives" expand="false" slideid="_player.6j4h2cjAuvM.63lPHJfa9ph"/>
+            <slidelink HideLink="false" displaytext="Preparing the Handheld: Turning the Handheld On and Selecting Patient Test" expand="false" slideid="_player.6j4h2cjAuvM.62dMV1gFRT8"/>
+            <slidelink HideLink="false" displaytext="Preparing the Handheld: Entering Operator ID via Barcode Scan" expand="false" slideid="_player.6j4h2cjAuvM.6dsPt34jbBg"/>
+            <slidelink HideLink="false" displaytext="Preparing the Handheld: Entering Operator ID Manually" expand="false" slideid="_player.6j4h2cjAuvM.6FSZBJamJtL"/>
+            <slidelink HideLink="false" displaytext="Preparing the Handheld: Operator Competency Notification" expand="false" slideid="_player.6j4h2cjAuvM.6ix8tBMT6QA"/>
+            <slidelink HideLink="false" displaytext="Preparing the Handheld: Entering Patient ID via Barcode Scan" expand="false" slideid="_player.6j4h2cjAuvM.5g6Fx8IVAst"/>
+            <slidelink HideLink="false" displaytext="Preparing the Handheld: Entering Patient ID Manually" expand="false" slideid="_player.6j4h2cjAuvM.6WCQMM5dEFt"/>
+            <slidelink HideLink="false" displaytext="Preparing the Handheld: Positive Patient ID" expand="false" slideid="_player.6j4h2cjAuvM.5bwraSUvIiY"/>
+            <slidelink HideLink="false" displaytext="Preparing the Handheld: Scanning Cartridge Lot Number" expand="false" slideid="_player.6j4h2cjAuvM.6MJ7P1yjQG0"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.6j4h2cjAuvM.61Lwy07GSmR"/>
+            <slidelink HideLink="false" displaytext="Running a Patient Test: The Insert Cartridge Screen" expand="false" slideid="_player.6j4h2cjAuvM.5k504hKKXcE"/>
+            <slidelink HideLink="false" displaytext="Running a Patient Test: Cartridge Filling Overview" expand="false" slideid="_player.6j4h2cjAuvM.6D6tZyN6Wa0"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.6j4h2cjAuvM.6K2cLt7kOjg"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.6j4h2cjAuvM.5cHMrJrqNLY"/>
+            <slidelink HideLink="false" displaytext="BNP Cartridges" expand="false" slideid="_player.6j4h2cjAuvM.5mO1dL0QzcS"/>
+            <slidelink HideLink="false" displaytext="Cardiac Cartridges" expand="false" slideid="_player.6j4h2cjAuvM.5o6jrXgQV1N"/>
+            <slidelink HideLink="false" displaytext="Chemistry Cartridges" expand="false" slideid="_player.6j4h2cjAuvM.5mmUFCaBah5"/>
+            <slidelink HideLink="false" displaytext="CHEM8+ Cartridges" expand="false" slideid="_player.6j4h2cjAuvM.6fJwJcrpUHj"/>
+            <slidelink HideLink="false" displaytext="EC8+ Cartridges" expand="false" slideid="_player.6j4h2cjAuvM.6QNbiZH5Nmz"/>
+            <slidelink HideLink="false" displaytext="Arterial Blood Gas (ABG) Cartridges" expand="false" slideid="_player.6j4h2cjAuvM.6D6IQUmhNZo"/>
+            <slidelink HideLink="false" displaytext="CG4+ Cartridges" expand="false" slideid="_player.6j4h2cjAuvM.6fmScFhYTcE"/>
+            <slidelink HideLink="false" displaytext="ACT Cartridges" expand="false" slideid="_player.6j4h2cjAuvM.69LnwuhMHcr"/>
+            <slidelink HideLink="false" displaytext="PT/INR Cartridge" expand="false" slideid="_player.6j4h2cjAuvM.6edOCQ6b2gu"/>
+            <slidelink HideLink="false" displaytext="Using an Evacuated Tube to Fill a Cartridge" expand="false" slideid="_player.6j4h2cjAuvM.5ql4F5h5NwI"/>
+            <slidelink HideLink="false" displaytext="Using a Dispensing Tip to Fill a Cartridge" expand="false" slideid="_player.6j4h2cjAuvM.6O9M4sPX93K"/>
+            <slidelink HideLink="false" displaytext="Using a Syringe to Fill a Cartridge" expand="false" slideid="_player.6j4h2cjAuvM.6YfiEpcA9ZE"/>
+            <slidelink HideLink="false" displaytext="Using a Capillary Tube to Fill a Cartridge" expand="false" slideid="_player.6j4h2cjAuvM.61UM0mLPOXS"/>
+            <slidelink HideLink="false" displaytext="Running a Patient Test: Immediately after Inserting the Cartridge" expand="false" slideid="_player.6j4h2cjAuvM.6Spd7Q3j7aM"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.6j4h2cjAuvM.60ZGi7SJiCY"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.6j4h2cjAuvM.6H1BXvo21WC"/>
+            <slidelink HideLink="false" displaytext="Running a Patient Test: Customizable Test Settings" expand="false" slideid="_player.6j4h2cjAuvM.6f5zlhTJFWU"/>
+            <slidelink HideLink="false" displaytext="Running a Patient Test: Using the Test Select Function" expand="false" slideid="_player.6j4h2cjAuvM.6obTTqRXzds"/>
+            <slidelink HideLink="false" displaytext="Running a Patient Test: Overview of the Chart Page" expand="false" slideid="_player.6j4h2cjAuvM.6ANbkFNWeNX"/>
+            <slidelink HideLink="false" displaytext="Chart Page: Entering Sample Type" expand="false" slideid="_player.6j4h2cjAuvM.6S93L3yNQfm"/>
+            <slidelink HideLink="false" displaytext="Chart Page: Entering a Patient Temperature" expand="false" slideid="_player.6j4h2cjAuvM.6Fo6tX9Au0b"/>
+            <slidelink HideLink="false" displaytext="Chart Page: Entering FIO2" expand="false" slideid="_player.6j4h2cjAuvM.61Ril53jzCC"/>
+            <slidelink HideLink="false" displaytext="Chart Page: Entering CPB" expand="false" slideid="_player.6j4h2cjAuvM.6QMTpLqcdtM"/>
+            <slidelink HideLink="false" displaytext="Interpreting Test Results: The Results Screen" expand="false" slideid="_player.6j4h2cjAuvM.68sBJVHyY9u"/>
+            <slidelink HideLink="false" displaytext="Interpreting Test Results: Reference Range Graphs" expand="false" slideid="_player.6j4h2cjAuvM.6dR2u84mNsV"/>
+            <slidelink HideLink="false" displaytext="Interpreting Test Results: Critical Value Alerts" expand="false" slideid="_player.6j4h2cjAuvM.6OAEFFaYz8p"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.6j4h2cjAuvM.61f74mtySwa"/>
+            <slidelink HideLink="false" displaytext="Interpreting Test Results: Out of Reportable Range Flags" expand="false" slideid="_player.6j4h2cjAuvM.6pLKl04mG4y"/>
+            <slidelink HideLink="false" displaytext="Interpreting Test Results: Star Outs (***)" expand="false" slideid="_player.6j4h2cjAuvM.6qPVjVJM78G"/>
+            <slidelink HideLink="false" displaytext="Responding to Patient Tests: Comment Codes" expand="false" slideid="_player.6j4h2cjAuvM.696q8ZeyXib"/>
+            <slidelink HideLink="false" displaytext="Transmitting Results: Downloader" expand="false" slideid="_player.6j4h2cjAuvM.6J6lzlPqxfd"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.6j4h2cjAuvM.6RZ1qSlMQH3"/>
+            <slidelink HideLink="false" displaytext="Transmitting Results: Wireless" expand="false" slideid="_player.6j4h2cjAuvM.5rXJrd6vBCS"/>
+            <slidelink HideLink="false" displaytext="Printing Results with a Printer Connected to a Downloader" expand="false" slideid="_player.6j4h2cjAuvM.5a5OIVYGq4k"/>
+            <slidelink HideLink="false" displaytext="Printing Results with the i-STAT Portable Printer" expand="false" slideid="_player.6j4h2cjAuvM.6Z9isbFMyzs"/>
+            <slidelink HideLink="false" displaytext="Recalling Previous Results: Last Result" expand="false" slideid="_player.6j4h2cjAuvM.6bjFshgEcnZ"/>
+            <slidelink HideLink="false" displaytext="Summary" expand="false" slideid="_player.6j4h2cjAuvM.5rHbieNIyg2"/>
+            <slidelink HideLink="false" displaytext="Congratulations" expand="false" slideid="_player.6j4h2cjAuvM.6LshIjWpDBy"/>
+          </links>
+        </slidelink>
+        <slidelink HideLink="false" displaytext="Quality Control" expand="false" slideid="_player.5WRaMmHXWcO">
+          <links>
+            <slidelink HideLink="false" displaytext="Welcome and Learning Objectives" expand="false" slideid="_player.5WRaMmHXWcO.5qZ5EMvwx5Y"/>
+            <slidelink HideLink="false" displaytext="i-STAT System Quality Control" expand="false" slideid="_player.5WRaMmHXWcO.5csMtzZT73E"/>
+            <slidelink HideLink="false" displaytext="Internal Electronic Simulator" expand="false" slideid="_player.5WRaMmHXWcO.66zwE354qB9"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.5WRaMmHXWcO.6knk2TpXzHl"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.5WRaMmHXWcO.5qL5p3TJsqr"/>
+            <slidelink HideLink="false" displaytext="External Electronic Simulator" expand="false" slideid="_player.5WRaMmHXWcO.5lptxtDNKxf"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.5WRaMmHXWcO.6JOZI5AW8bz"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.5WRaMmHXWcO.5vma1cJNbXc"/>
+            <slidelink HideLink="false" displaytext="Using Liquid Controls: Liquid Quality Control Pass/Fail Determination" expand="false" slideid="_player.5WRaMmHXWcO.6bqPvrMsu0C"/>
+            <slidelink HideLink="false" displaytext="Quality Control Using Liquid Controls: Liquid Quality Control Schedule and Lockout" expand="false" slideid="_player.5WRaMmHXWcO.5hjYNX9Rfua"/>
+            <slidelink HideLink="false" displaytext="Quality Control Using Liquid Controls: Customizable Reportable Ranges" expand="false" slideid="_player.5WRaMmHXWcO.6AQy0HzRHRQ"/>
+            <slidelink HideLink="false" displaytext="Using Liquid Controls: Pass/Fail Determination with Numeric Display" expand="false" slideid="_player.5WRaMmHXWcO.6p2v4fszRu1"/>
+            <slidelink HideLink="false" displaytext="Using Liquid Controls: Pass/Fail Determination with Suppressed Display" expand="false" slideid="_player.5WRaMmHXWcO.6jRpdcpIp8G"/>
+            <slidelink HideLink="false" displaytext="Quality Control Using Liquid Controls: Value Assignment Sheets and Electronic Value Assignment Sheets" expand="false" slideid="_player.5WRaMmHXWcO.6r5Wm4B6p8S"/>
+            <slidelink HideLink="false" displaytext="Quality Control Using i-STAT TriControls" expand="false" slideid="_player.5WRaMmHXWcO.5kCtJ7ikfJA"/>
+            <slidelink HideLink="false" displaytext="Quality Control Using Liquid Controls for Chemistry Cartridges" expand="false" slideid="_player.5WRaMmHXWcO.6MZRHxrNcT2"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.5WRaMmHXWcO.6Wc6lE3OpdA"/>
+            <slidelink HideLink="false" displaytext="Quality Control Using Liquid Controls for Blood Gas Cartridges" expand="false" slideid="_player.5WRaMmHXWcO.5qlhvDWQMn1"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.5WRaMmHXWcO.6iQC94GEFyd"/>
+            <slidelink HideLink="false" displaytext="Performing a Quality Control Test Using Liquid Controls" expand="false" slideid="_player.5WRaMmHXWcO.5wAPy0gOGpg"/>
+            <slidelink HideLink="false" displaytext="Performing a Quality Control Test Using Liquid Quality Control Auto Pass/Fail" expand="false" slideid="_player.5WRaMmHXWcO.6UKp0qqGsXu"/>
+            <slidelink HideLink="false" displaytext="Performing a Quality Control Test Using Liquid Quality Control Schedule and Lockout" expand="false" slideid="_player.5WRaMmHXWcO.5jZfc4cDb4g"/>
+            <slidelink HideLink="false" displaytext="Quality Control Using RNA Hematocrit Liquid Controls" expand="false" slideid="_player.5WRaMmHXWcO.5iQwsFpuwBa"/>
+            <slidelink HideLink="false" displaytext="Performing a Quality Control Test Using RNA Hematocrit Liquid Controls" expand="false" slideid="_player.5WRaMmHXWcO.62oA1TjJgxb"/>
+            <slidelink HideLink="false" displaytext="Quality Control Using Liquid Controls for Coagulation Cartridges" expand="false" slideid="_player.5WRaMmHXWcO.6CNy9XXarF3"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.5WRaMmHXWcO.6ofrRav40Wf"/>
+            <slidelink HideLink="false" displaytext="Performing a Quality Control Test Using Liquid Controls for Coagulation Cartridges" expand="false" slideid="_player.5WRaMmHXWcO.61nJmanSWGW"/>
+            <slidelink HideLink="false" displaytext="Quality Control Using Liquid Controls for Cardiac Marker Cartridges" expand="false" slideid="_player.5WRaMmHXWcO.69NrJpHmJXm"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.5WRaMmHXWcO.5jC4odTduZt"/>
+            <slidelink HideLink="false" displaytext="Performing a Quality Control Test Using Liquid Controls for Cardiac Marker Cartridges" expand="false" slideid="_player.5WRaMmHXWcO.6T4HSVWLdjC"/>
+            <slidelink HideLink="false" displaytext="Quality Control Using Liquid Controls for CK-MB Cartridges" expand="false" slideid="_player.5WRaMmHXWcO.611AhQXGOhD"/>
+            <slidelink HideLink="false" displaytext="Performing a Quality Control Test Using Liquid Controls for CK-MB Cartridges" expand="false" slideid="_player.5WRaMmHXWcO.6OxpgvsXEex"/>
+            <slidelink HideLink="false" displaytext="Summary" expand="false" slideid="_player.5WRaMmHXWcO.5bDGJwrXDsg"/>
+            <slidelink HideLink="false" displaytext="Congratulations" expand="false" slideid="_player.5WRaMmHXWcO.68uRU1GWqPM"/>
+          </links>
+        </slidelink>
+        <slidelink HideLink="false" displaytext="Troubleshooting" expand="false" slideid="_player.5ckwVUVuBAJ">
+          <links>
+            <slidelink HideLink="false" displaytext="Welcome and Learning Objectives" expand="false" slideid="_player.5ckwVUVuBAJ.6lAKZ1VPziH"/>
+            <slidelink HideLink="false" displaytext="i-STAT System Troubleshooting Overview" expand="false" slideid="_player.5ckwVUVuBAJ.5v2YWDmf53n"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.5ckwVUVuBAJ.6FtNNtrSy0R"/>
+            <slidelink HideLink="false" displaytext="Dead Batteries/Replace Batteries" expand="false" slideid="_player.5ckwVUVuBAJ.5X8yNS5zQTd"/>
+            <slidelink HideLink="false" displaytext="Cartridge Preburst/Use Another Cartridge" expand="false" slideid="_player.5ckwVUVuBAJ.5fB4asNKxR6"/>
+            <slidelink HideLink="false" displaytext="Unable to Position Sample / Use Another Cartridge" expand="false" slideid="_player.5ckwVUVuBAJ.61jr0w7DBQY"/>
+            <slidelink HideLink="false" displaytext="Sample Positioned Short of Fill Mark / Use Another Cartridge" expand="false" slideid="_player.5ckwVUVuBAJ.6idz0zYbBEd"/>
+            <slidelink HideLink="false" displaytext="Sample Positioned Beyond Fill Mark / Use Another Cartridge" expand="false" slideid="_player.5ckwVUVuBAJ.5cX3J1PqetS"/>
+            <slidelink HideLink="false" displaytext="Cartridge Type Not Recognized / Use Another Cartridge" expand="false" slideid="_player.5ckwVUVuBAJ.5sQi3QOxx4w"/>
+            <slidelink HideLink="false" displaytext="Cartridge Error/Use Another Cartridge" expand="false" slideid="_player.5ckwVUVuBAJ.6AfYjxPB1Bt"/>
+            <slidelink HideLink="false" displaytext="Troubleshooting - Cannot Transmit Results" expand="false" slideid="_player.5ckwVUVuBAJ.6XixMlhuVQG"/>
+            <slidelink HideLink="false" displaytext="Final Thoughts" expand="false" slideid="_player.5ckwVUVuBAJ.6DOkYmIjr05"/>
+            <slidelink HideLink="false" displaytext="Learning Check" expand="false" slideid="_player.5ckwVUVuBAJ.6SvmSDZyleQ"/>
+            <slidelink HideLink="false" displaytext="Summary" expand="false" slideid="_player.5ckwVUVuBAJ.6RfGDAlQI4D"/>
+            <slidelink HideLink="false" displaytext="Congratulations" expand="false" slideid="_player.5ckwVUVuBAJ.6k7KJ2KNLSd"/>
+          </links>
+        </slidelink>
+      </links>
     </outline>
   </nav_data>
   <resource_data description=""/>

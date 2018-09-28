@@ -165,9 +165,9 @@ module.exports = function (html5json, xmljson) {
         });
     })
 
-    ipc.on('delete-template', (e, id) => {
+    ipc.on('delete-template', (e, id, activeLink) => {
         deleteTemplate(id).then((success, fail) => {
-            fetchTemplate().then((suc, fail) => {
+            fetchTemplate(activeLink).then((suc, fail) => {
                 if (suc) {
                     mainWindow.webContents.send('fetched-templates', suc);
                 }
@@ -178,7 +178,12 @@ module.exports = function (html5json, xmljson) {
     ipc.on('update-template-data', (e, tId, selectedTree) => {
         updateNavigation(tId, selectedTree).then((success, fail) => {
             if (success) {
-
+                fetchTemplate(success).then((templates, fail) => {
+                    if (templates) {
+                        mainWindow.webContents.send('fetched-templates', templates);
+                        mainWindow.webContents.send('template-saved');
+                    }
+                });
             }
         });
     })

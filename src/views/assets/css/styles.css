@@ -105,6 +105,11 @@ a.button3:hover {
   color: #3f51b5 !important;
 }
 
+.del-icon:hover {
+  color: rgb(155, 22, 22) !important;
+  opacity: 1 !important;
+}
+
 .error-title {
   font-size: 24px !important;
 }
@@ -112,4 +117,35 @@ a.button3:hover {
 .err-icon {
   font-size: 24px !important;
   transform: translateY(5px) translateX(-3px);
+}
+
+.alert {
+  position: fixed;
+  top: 30px;
+  background-color: rgba(9, 255, 29, 0.719);
+  display: block;
+  padding: 4px;
+  left: 55%;
+  color: whitesmoke;
+  z-index: 10;
+  font-size: 12px;
+  border: none;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+  border-radius: 5px;
+}
+
+.success-animation {
+  animation: slide-down .5s ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+    top: 30px;
+  }
+  100% {
+    opacity: 1;
+    top: 20px;
+  }
 }
