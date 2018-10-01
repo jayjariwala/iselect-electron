@@ -127,17 +127,21 @@ ipc.on('sendData', (event, html5json, xmljson) => {
   // Generate Button click listener
   $('#generateXML').on('click', function () {
     const selectedTree = $('#jstree').jstree('get_selected');
-    const manipulatedXmlNav = generateXML(originalxmlJSON, selectedTree);
-    let newXmlNavBar = JSON.parse(JSON.stringify(originalxmlJSON));
-    newXmlNavBar.bwFrame.nav_data[0].outline[0].links[0].slidelink = manipulatedXmlNav;
-    const manipulatedHtmlNav = generateJS(html5json, selectedTree);
-    let newHtmlNavBar = JSON.parse(JSON.stringify(html5json));
-    newHtmlNavBar.navData.outline.links = manipulatedHtmlNav;
-    const templateName = $('.current span').text();
-    if (templateName === "") {
-      ipc.send('generateNavBar', newXmlNavBar, newHtmlNavBar, "untitled");
+    if (selectedTree.length === 0) {
+      errorDialog.showModal();
     } else {
-      ipc.send('generateNavBar', newXmlNavBar, newHtmlNavBar, templateName);
+      const manipulatedXmlNav = generateXML(originalxmlJSON, selectedTree);
+      let newXmlNavBar = JSON.parse(JSON.stringify(originalxmlJSON));
+      newXmlNavBar.bwFrame.nav_data[0].outline[0].links[0].slidelink = manipulatedXmlNav;
+      const manipulatedHtmlNav = generateJS(html5json, selectedTree);
+      let newHtmlNavBar = JSON.parse(JSON.stringify(html5json));
+      newHtmlNavBar.navData.outline.links = manipulatedHtmlNav;
+      const templateName = $('.current span').text();
+      if (templateName === "") {
+        ipc.send('generateNavBar', newXmlNavBar, newHtmlNavBar, "untitled");
+      } else {
+        ipc.send('generateNavBar', newXmlNavBar, newHtmlNavBar, templateName);
+      }
     }
   })
 
@@ -208,21 +212,37 @@ $('.close-error').click((e) => {
   errorDialog.close();
 })
 
+function formInputSanatize(input) {
+  var letters = /^[0-9 a-zA-Z]+$/;
+  return letters.test(input);
+}
+
 $('.save-template').click((e) => {
   const templateName = $('.template-name').val();
   let selectedTree = [];
-  if (templateName) {
-    if ($('.template-navigation a').length === 0) {
-      selectedTree = $('#jstree').jstree('get_selected');
-      ipc.send('handle-template', templateName, selectedTree);
-    } else {
-      ipc.send('handle-template', templateName);
+  if (formInputSanatize(templateName)) {
+    if (templateName) {
+      if ($('.template-navigation a').length === 0) {
+        selectedTree = $('#jstree').jstree('get_selected');
+        ipc.send('handle-template', templateName, selectedTree);
+      } else {
+        ipc.send('handle-template', templateName);
+      }
     }
   } else {
-    $('.mdl-textfield__error').html('Template Name cannot be empty');
-    $('.mdl-textfield__error').css('visibility', 'visible');
-    e.preventDefault();
+    if (templateName === "") {
+      $('.mdl-textfield__error').html('Template Name cannot be empty');
+      $('.mdl-textfield__error').css('visibility', 'visible');
+      e.preventDefault();
+    } else {
+      $('.mdl-textfield__error').html('Only Numbers and letters are allowed');
+      $('.mdl-textfield__error').css('visibility', 'visible');
+      $('.template-name').val("");
+      e.preventDefault();
+    }
+
   }
+
 })
 
 ipc.on('template-added', () => {

@@ -1,7 +1,7 @@
 //Configuration Parameters
 var blnDebug = true;						//set this to false if you don't want the overhead of recording debug information
 
-var strLMSStandard = "SCORM2004";				//used in versions that support multiple standards, set to "NONE" to default
+var strLMSStandard = "SCORM";				//used in versions that support multiple standards, set to "NONE" to default
 											//to StandAlone mode. Possible values = "NONE", "SCORM", "AICC", ""SCORM2004", "AUTO"
 											//AUTO mode will automatically determine the best standard to use (it first tries SCORM 2004, then SCORM 1.2/1.1 then AICC, then NONE)
 

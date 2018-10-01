@@ -1,86 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" textdirection="ltr" device="false" default_layout="pxnanbnsnfns11111000101">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxnanbnsnfns11111000101" textdirection="ltr" device="false" fontscale="130" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout string_table="pxnanbnsnfns11111000101" name="npnxnanbsnfns11111000101" font="Calibri Light" controllayout="npnxnanbsnfns11111000101" colorscheme="pxnanbnsnfns11111000101" />
-    <layout string_table="pxnanbnsnfns11111000101" name="pxabnsnfns11111000101" font="Calibri Light" controllayout="pxabnsnfns11111000101" colorscheme="pxnanbnsnfns11111000101" />
-    <layout string_table="pxnanbnsnfns11111000101" name="npxnabnsnfns11111000101" font="Calibri Light" controllayout="npxnabnsnfns11111000101" colorscheme="pxnanbnsnfns11111000101" />
-    <layout string_table="pxnanbnsnfns11111000101" name="npnxnanbnsnfns11111000101" font="Calibri Light" controllayout="npnxnanbnsnfns11111000101" colorscheme="pxnanbnsnfns11111000101" />
-    <layout string_table="pxnanbnsnfns11111000101" name="pxabnsnfns11111000100" font="Calibri Light" controllayout="pxabnsnfns11111000100" colorscheme="pxnanbnsnfns11111000101" />
-    <layout string_table="pxnanbnsnfns11111000101" name="pxnanbnsnfns11111000101" font="Calibri Light" controllayout="pxnanbnsnfns11111000101" colorscheme="pxnanbnsnfns11111000101" />
-    <layout string_table="pxnanbnsnfns11111000101" name="npnxnanbsnfns01000000101" font="Calibri Light" controllayout="npnxnanbsnfns01000000101" colorscheme="pxnanbnsnfns11111000101" />
-    <layout string_table="pxnanbnsnfns11111000101" name="pxabnsnfns01000000101" font="Calibri Light" controllayout="pxabnsnfns01000000101" colorscheme="pxnanbnsnfns11111000101" />
+    <layout name="npnxnanbsnfns11111000101" font="Calibri Light" controllayout="npnxnanbsnfns11111000101" colorscheme="pxnanbnsnfns11111000101" string_table="pxnanbnsnfns11111000101" />
+    <layout name="pxabnsnfns11111000101" font="Calibri Light" controllayout="pxabnsnfns11111000101" colorscheme="pxnanbnsnfns11111000101" string_table="pxnanbnsnfns11111000101" />
+    <layout name="npxnabnsnfns11111000101" font="Calibri Light" controllayout="npxnabnsnfns11111000101" colorscheme="pxnanbnsnfns11111000101" string_table="pxnanbnsnfns11111000101" />
+    <layout name="npnxnanbnsnfns11111000101" font="Calibri Light" controllayout="npnxnanbnsnfns11111000101" colorscheme="pxnanbnsnfns11111000101" string_table="pxnanbnsnfns11111000101" />
+    <layout name="pxabnsnfns11111000100" font="Calibri Light" controllayout="pxabnsnfns11111000100" colorscheme="pxnanbnsnfns11111000101" string_table="pxnanbnsnfns11111000101" />
+    <layout name="pxnanbnsnfns11111000101" font="Calibri Light" controllayout="pxnanbnsnfns11111000101" colorscheme="pxnanbnsnfns11111000101" string_table="pxnanbnsnfns11111000101" />
+    <layout name="npnxnanbsnfns01000000101" font="Calibri Light" controllayout="npnxnanbsnfns01000000101" colorscheme="pxnanbnsnfns11111000101" string_table="pxnanbnsnfns11111000101" />
+    <layout name="pxabnsnfns01000000101" font="Calibri Light" controllayout="pxabnsnfns01000000101" colorscheme="pxnanbnsnfns11111000101" string_table="pxnanbnsnfns11111000101" />
   </layouts>
   <control_options>
     <optiongroups>
       <optiongroup name="sidebaroptions">
         <options>
-          <option value="true" name="title_enabled">
+          <option name="title_enabled" value="true">
             <options>
-              <option value="i-STAT Learning System " name="title_text" />
+              <option name="title_text" value="i-STAT Learning System for iSelect" />
             </options>
           </option>
-          <option value="true" name="logo_enabled">
+          <option name="logo_enabled" value="true">
             <options>
-              <option value="story_content/logo.swf" name="logo_url">
+              <option name="logo_url" value="story_content/logo.swf">
                 <properties>
-                  <property value="1024" name="width" />
-                  <property value="264" name="height" />
+                  <property name="width" value="1024" />
+                  <property name="height" value="264" />
                 </properties>
               </option>
-              <option value="mobile/5k1wxExekTd.png" name="html5_logo_url" />
+              <option name="html5_logo_url" value="mobile/5k4ydXZKM6Z.png" />
             </options>
           </option>
-          <option value="true" name="sidebar_enabled">
+          <option name="sidebar_enabled" value="true">
             <options>
-              <option value="left" name="sidebarpos" />
+              <option name="sidebarpos" value="left" />
             </options>
           </option>
           <optionlist name="tabs">
             <listitems>
-              <listitem value="false" name="resources" group="linkright" />
-              <listitem value="true" name="outline" group="sidebar" />
-              <listitem value="false" name="glossary" group="sidebar" />
-              <listitem value="false" name="transcript" group="sidebar" />
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
           </optionlist>
-          <option value="false" name="time_enabled">
+          <option name="time_enabled" value="false">
             <options>
-              <option value="totalelapsed" name="time_format" />
+              <option name="time_format" value="totalelapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
             </options>
           </option>
         </options>
       </optiongroup>
       <optiongroup name="menuoptions">
         <options>
-          <option value="free" name="flow" />
-          <option value="true" name="wraplistitems" />
-          <option value="true" name="tooltips" />
-          <option value="true" name="autocollapse" />
-          <option value="true" name="autonumber" />
-          <option value="false" name="enableresultsicons" />
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="true" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="controls">
         <options>
-          <option value="true" name="volume" />
-          <option value="true" name="seekbar">
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
             <options>
-              <option value="false" name="readonly" />
+              <option name="readonly" value="false" />
             </options>
           </option>
-          <option value="false" name="search" />
-          <option value="true" name="replay" />
-          <option value="true" name="pauseplay" />
-          <option value="true" name="closed_captions">
+          <option name="search" value="false" />
+          <option name="replay" value="true" />
+          <option name="pauseplay" value="true" />
+          <option name="closed_captions" value="true">
             <options>
-              <option value="Open Sans" name="font" />
+              <option name="font" value="Open Sans" />
             </options>
           </option>
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
         <options>
-          <option value="true" name="bottombar_enabled" />
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
         </options>
       </optiongroup>
     </optiongroups>
@@ -115,8 +127,8 @@
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="true" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
       <control name="submit" enabled="false" />
@@ -139,7 +151,7 @@
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
-      <control name="next" enabled="false" />
+      <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
       <control name="submit" enabled="false" />
@@ -184,8 +196,8 @@
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="true" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
       <control name="submit" enabled="false" />
@@ -207,8 +219,8 @@
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="true" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
       <control name="submit" enabled="false" />
@@ -253,8 +265,8 @@
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="true" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
       <control name="submit" enabled="false" />
@@ -278,37 +290,37 @@
           <color name="duration">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x00D7FF" alpha="100" />
-                <color stop="255" rgb="0x00ABFF" alpha="100" />
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="elapsed">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFEE347" alpha="100" />
-                <color stop="255" rgb="0xFCCC2A" alpha="100" />
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="stroke">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xC7C7C7" alpha="100" />
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="inner">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="text">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -319,43 +331,43 @@
           <color name="text">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="inner">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x2E77B8" alpha="100" />
-                <color stop="255" rgb="0x094B8E" alpha="100" />
+                <color rgb="0x2E77B8" alpha="100" stop="0" />
+                <color rgb="0x094B8E" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x409ACE" alpha="100" />
+                <color rgb="0x409ACE" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="diva">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x4392D1" alpha="100" />
+                <color rgb="0x4392D1" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="divb">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x145086" alpha="100" />
+                <color rgb="0x145086" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="shadow">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x000000" alpha="20" />
+                <color rgb="0x000000" alpha="20" stop="0" />
               </colors>
             </fill>
           </color>
@@ -366,59 +378,59 @@
           <color name="slide_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="html_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_text_shadow">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x063A6A" alpha="100" />
+                <color rgb="0x063A6A" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_border">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x063A6A" alpha="100" />
+                <color rgb="0x063A6A" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x39A1CB" alpha="100" />
-                <color stop="255" rgb="0x154694" alpha="100" />
+                <color rgb="0x39A1CB" alpha="100" stop="0" />
+                <color rgb="0x154694" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="btn_down">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x154694" alpha="100" />
-                <color stop="255" rgb="0x39A1CB" alpha="100" />
+                <color rgb="0x154694" alpha="100" stop="0" />
+                <color rgb="0x39A1CB" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="btn_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x2F84BC" alpha="100" />
-                <color stop="255" rgb="0x1F5BA3" alpha="100" />
+                <color rgb="0x2F84BC" alpha="100" stop="0" />
+                <color rgb="0x1F5BA3" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
@@ -429,49 +441,49 @@
           <color name="selected_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="shadow">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x053A6A" alpha="100" />
+                <color rgb="0x053A6A" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="selected">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x154B82" alpha="100" />
+                <color rgb="0x154B82" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="text">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="viewed">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x155EA7" alpha="100" />
+                <color rgb="0x155EA7" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x3E98D3" alpha="100" />
+                <color rgb="0x3E98D3" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="lines">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x1D5E9B" alpha="100" />
+                <color rgb="0x1D5E9B" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -482,63 +494,63 @@
           <color name="selected_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="selected">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x154B82" alpha="100" />
+                <color rgb="0x154B82" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="text">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x3E98D3" alpha="100" />
+                <color rgb="0x3E98D3" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="heading_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="diva">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x236EA7" alpha="100" />
+                <color rgb="0x236EA7" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="divb">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x236EA7" alpha="100" />
+                <color rgb="0x236EA7" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="divc">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x78B6DB" alpha="100" />
+                <color rgb="0x78B6DB" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x4FA7D9" alpha="100" />
+                <color rgb="0x4FA7D9" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -549,7 +561,7 @@
           <color name="separator">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x1D5E9B" alpha="100" />
+                <color rgb="0x1D5E9B" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -560,42 +572,42 @@
           <color name="search_hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x8AD3FF" alpha="100" />
+                <color rgb="0x8AD3FF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="search_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="icon_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="divc">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x1D5E9B" alpha="100" />
+                <color rgb="0x1D5E9B" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="divb">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x5DA1CE" alpha="100" />
+                <color rgb="0x5DA1CE" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="diva">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x1D5E9B" alpha="100" />
+                <color rgb="0x1D5E9B" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -606,14 +618,14 @@
           <color name="heading_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="div">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x1D5E9B" alpha="100" />
+                <color rgb="0x1D5E9B" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -624,35 +636,35 @@
           <color name="shadow">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x053A6A" alpha="100" />
+                <color rgb="0x053A6A" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="selected">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="text">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x8AD3FF" alpha="100" />
+                <color rgb="0x8AD3FF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x3489C3" alpha="100" />
+                <color rgb="0x3489C3" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -663,66 +675,66 @@
           <color name="btn_icon_hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_icon_shadow">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x2160A8" alpha="100" />
+                <color rgb="0x2160A8" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_icon_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="seek_position">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="seek_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x1A6FAA" alpha="100" />
+                <color rgb="0x1A6FAA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="text_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x2D2D2D" alpha="100" />
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="seek_border">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x165291" alpha="100" />
-                <color stop="255" rgb="0x459CD2" alpha="100" />
+                <color rgb="0x165291" alpha="100" stop="0" />
+                <color rgb="0x459CD2" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x063A6A" alpha="100" />
-                <color stop="0" rgb="0x053A69" alpha="100" />
+                <color rgb="0x063A6A" alpha="100" stop="0" />
+                <color rgb="0x053A69" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x2F84BC" alpha="100" />
-                <color stop="255" rgb="0x1F5BA4" alpha="100" />
+                <color rgb="0x2F84BC" alpha="100" stop="0" />
+                <color rgb="0x1F5BA4" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
@@ -733,58 +745,58 @@
           <color name="text_active">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x2D2D2D" alpha="100" />
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bg_active">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="search_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x2D2D2D" alpha="100" />
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="hover_glow">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x5DA1CE" alpha="0" />
+                <color rgb="0x5DA1CE" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="button_hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x2F84BC" alpha="100" />
-                <color stop="255" rgb="0x1F5BA3" alpha="100" />
+                <color rgb="0x2F84BC" alpha="100" stop="0" />
+                <color rgb="0x1F5BA3" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="icon">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x2C7CBB" alpha="100" />
-                <color stop="255" rgb="0x1D5E9B" alpha="100" />
+                <color rgb="0x2C7CBB" alpha="100" stop="0" />
+                <color rgb="0x1D5E9B" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -795,66 +807,66 @@
           <color name="detailb">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x063A6A" alpha="100" />
+                <color rgb="0x063A6A" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="detaila">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x5EA1CE" alpha="100" />
+                <color rgb="0x5EA1CE" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="shadow">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x063A6A" alpha="100" />
+                <color rgb="0x063A6A" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="icons">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="button_border">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x063A6A" alpha="100" />
+                <color rgb="0x063A6A" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="button_inner">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x3C88C0" alpha="100" />
-                <color stop="255" rgb="0x3368AC" alpha="100" />
+                <color rgb="0x3C88C0" alpha="100" stop="0" />
+                <color rgb="0x3368AC" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="button_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x2977B8" alpha="100" />
-                <color stop="255" rgb="0x215DA5" alpha="100" />
+                <color rgb="0x2977B8" alpha="100" stop="0" />
+                <color rgb="0x215DA5" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x3D9EE5" alpha="100" />
+                <color rgb="0x3D9EE5" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="0">
               <colors>
-                <color stop="0" rgb="0x2C74B5" alpha="100" />
-                <color stop="128" rgb="0x3181BC" alpha="100" />
+                <color rgb="0x2C74B5" alpha="100" stop="0" />
+                <color rgb="0x3181BC" alpha="100" stop="128" />
               </colors>
             </fill>
           </color>
@@ -865,14 +877,14 @@
           <color name="shadow">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x0E4E8C" alpha="100" />
+                <color rgb="0x0E4E8C" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x3489C3" alpha="100" />
+                <color rgb="0x3489C3" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -883,14 +895,14 @@
           <color name="shadow">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x063A6A" alpha="100" />
+                <color rgb="0x063A6A" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -901,35 +913,35 @@
           <color name="hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x8AD3FF" alpha="100" />
+                <color rgb="0x8AD3FF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="text">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="check">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x2BC400" alpha="100" />
+                <color rgb="0x2BC400" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x1D5E9B" alpha="100" />
+                <color rgb="0x1D5E9B" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -940,59 +952,59 @@
           <color name="btn_icon_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_text_shadow">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x063A6A" alpha="100" />
+                <color rgb="0x063A6A" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_border">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x063A6A" alpha="100" />
+                <color rgb="0x063A6A" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x39A1CB" alpha="100" />
-                <color stop="255" rgb="0x154694" alpha="100" />
+                <color rgb="0x39A1CB" alpha="100" stop="0" />
+                <color rgb="0x154694" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="btn_down">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x154694" alpha="100" />
-                <color stop="255" rgb="0x39A1CB" alpha="100" />
+                <color rgb="0x154694" alpha="100" stop="0" />
+                <color rgb="0x39A1CB" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="btn_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x2F84BC" alpha="100" />
-                <color stop="255" rgb="0x1F5BA3" alpha="100" />
+                <color rgb="0x2F84BC" alpha="100" stop="0" />
+                <color rgb="0x1F5BA3" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="btn_glow">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x1C599A" alpha="10" />
+                <color rgb="0x1C599A" alpha="10" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1003,53 +1015,53 @@
           <color name="text">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="diva">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x145086" alpha="100" />
+                <color rgb="0x145086" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="divb">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x4392D1" alpha="100" />
+                <color rgb="0x4392D1" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="menu_shade">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x2B8DBA" alpha="100" />
-                <color stop="255" rgb="0x67B6DC" alpha="100" />
+                <color rgb="0x2B8DBA" alpha="100" stop="0" />
+                <color rgb="0x67B6DC" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x3D8DCE" alpha="100" />
-                <color stop="255" rgb="0x3D8DCE" alpha="100" />
+                <color rgb="0x3D8DCE" alpha="100" stop="0" />
+                <color rgb="0x3D8DCE" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x2B8DBA" alpha="100" />
-                <color stop="255" rgb="0x67B6DC" alpha="100" />
+                <color rgb="0x2B8DBA" alpha="100" stop="0" />
+                <color rgb="0x67B6DC" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="slide_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x2E77B8" alpha="100" />
-                <color stop="255" rgb="0x094B8E" alpha="100" />
+                <color rgb="0x2E77B8" alpha="100" stop="0" />
+                <color rgb="0x094B8E" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
@@ -1060,37 +1072,37 @@
           <color name="thumb_border">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x063A6A" alpha="100" />
+                <color rgb="0x063A6A" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="thumb_inner">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x3B85BE" alpha="100" />
+                <color rgb="0x3B85BE" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="thumb_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x2771B3" alpha="100" />
+                <color rgb="0x2771B3" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="slider_border">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0x3790D7" alpha="100" />
+                <color rgb="0x3790D7" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="slider_bg">
             <fill type="linear" rotation="0">
               <colors>
-                <color stop="0" rgb="0x2363A9" alpha="100" />
-                <color stop="128" rgb="0x266DB2" alpha="100" />
-                <color stop="255" rgb="0x2363A9" alpha="100" />
+                <color rgb="0x2363A9" alpha="100" stop="0" />
+                <color rgb="0x266DB2" alpha="100" stop="128" />
+                <color rgb="0x2363A9" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
@@ -1101,7 +1113,7 @@
           <color name="htmlpage_bg_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color stop="0" rgb="0xFFFFFF" alpha="100" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1111,269 +1123,277 @@
   </colorschemes>
   <string_tables>
     <string_table name="pxnanbnsnfns11111000101">
+      <string id="acc_active">active</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to Menu</string>
       <string id="close">Close</string>
       <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
       <string id="continue">Continue</string>
       <string id="continueresponsive">Continue</string>
-      <string id="exit">Exit</string>
       <string id="filter">Filter</string>
       <string id="finish">FINISH</string>
-      <string id="acc_finish">finish</string>
       <string id="definition">Definition</string>
-      <string id="acc_definition">definition</string>
       <string id="glossary">Glossary</string>
-      <string id="terms">Terms</string>
-      <string id="outline">Course Navigation</string>
-      <string id="disabled_orientation">Please rotate your device</string>
-      <string id="next">NEXT</string>
+      <string id="glossary">Glossary</string>
       <string id="acc_next">next</string>
-      <string id="transcript_chk">Notes</string>
+      <string id="acc_next">next</string>
+      <string id="acc_next">next</string>
+      <string id="acc_next">next</string>
       <string id="transcript">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
       <string id="bio">Bio</string>
       <string id="more_info">More info</string>
       <string id="closed_captions">Captions</string>
+      <string id="closed_captions">Captions</string>
       <string id="acc_pause">pause</string>
-      <string id="acc_play">play</string>
-      <string id="send_an_email">Send an email</string>
       <string id="prev">PREV</string>
-      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
       <string id="question_list">Question List</string>
       <string id="acc_replay">replay</string>
       <string id="resources">Resources</string>
       <string id="acc_resources">resources</string>
       <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="resume">Resume</string>
       <string id="search">Search...</string>
       <string id="acc_search_input">search</string>
       <string id="search_in">Search in:</string>
-      <string id="search_results">Search Results</string>
-      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_in">Search in:</string>
       <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
       <string id="submitall">SUBMIT ALL</string>
       <string id="acc_submitall">submit all</string>
       <string id="submit">SUBMIT</string>
       <string id="acc_submit">submit</string>
-      <string id="acc_volume">volume</string>
     </string_table>
   </string_tables>
+  <fonts>
+    <font name="Calibri Light">
+      <files>
+        <file bold="false" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
   <sounds enabled="true" />
   <nav_data>
     <outline>
       <links>
-        <slidelink HideLink="false" slideid="_player.5Zpf63gkja8" expand="false" displaytext="Welcome">
+        <slidelink slideid="_player.5Zpf63gkja8" displaytext="1 Welcome" expand="false" type="slide">
           <links>
-            <slidelink HideLink="false" slideid="_player.5Zpf63gkja8.6bPikcZKAqa" expand="false" displaytext="Welcome" />
-            <slidelink HideLink="false" slideid="_player.5Zpf63gkja8.6RNrVHMhtxT" expand="false" displaytext="Primary Course Objective" />
-            <slidelink HideLink="false" slideid="_player.5Zpf63gkja8.6WtAxkxgZIp" expand="false" displaytext="Course Objectives" />
+            <slidelink slideid="_player.5Zpf63gkja8.6bPikcZKAqa" displaytext="1.1 Welcome" expand="false" type="slide" />
+            <slidelink slideid="_player.5Zpf63gkja8.6RNrVHMhtxT" displaytext="1.2 Primary Course Objective" expand="false" type="slide" />
+            <slidelink slideid="_player.5Zpf63gkja8.6WtAxkxgZIp" displaytext="1.3 Course Objectives" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink HideLink="false" slideid="_player.6nQoeG2o7qg" expand="false" displaytext="Introduction to i-STAT">
+        <slidelink slideid="_player.6nQoeG2o7qg" displaytext="2 Introduction to i-STAT" expand="false" type="slide">
           <links>
-            <slidelink HideLink="false" slideid="_player.6nQoeG2o7qg.5pJJDluQp5j" expand="false" displaytext="Imagine" />
-            <slidelink HideLink="false" slideid="_player.6nQoeG2o7qg.68Oc3Px6Rii" expand="false" displaytext="i-STAT System Bedside Testing" />
-            <slidelink HideLink="false" slideid="_player.6nQoeG2o7qg.5csmMLfUNCt" expand="false" displaytext="Components of the i-STAT System" />
-            <slidelink HideLink="false" slideid="_player.6nQoeG2o7qg.6B2hPeTwX4Y" expand="false" displaytext="The i-STAT System Testing Process" />
-            <slidelink HideLink="false" slideid="_player.6nQoeG2o7qg.6MKAdcs4sy5" expand="false" displaytext="Traditional Lab Process vs i-STAT Process" />
-            <slidelink HideLink="false" slideid="_player.6nQoeG2o7qg.6YCCoQuc8f1" expand="false" displaytext="Why Should You Care about Switching to the i-STAT System?" />
-            <slidelink HideLink="false" slideid="_player.6nQoeG2o7qg.6FGhtTJL05W" expand="false" displaytext="Goals of the i-STAT System Training Program" />
+            <slidelink slideid="_player.6nQoeG2o7qg.5pJJDluQp5j" displaytext="2.1 Imagine" expand="false" type="slide" />
+            <slidelink slideid="_player.6nQoeG2o7qg.68Oc3Px6Rii" displaytext="2.2 i-STAT System Bedside Testing" expand="false" type="slide" />
+            <slidelink slideid="_player.6nQoeG2o7qg.5csmMLfUNCt" displaytext="2.3 Components of the i-STAT System" expand="false" type="slide" />
+            <slidelink slideid="_player.6nQoeG2o7qg.6B2hPeTwX4Y" displaytext="2.4 The i-STAT System Testing Process" expand="false" type="slide" />
+            <slidelink slideid="_player.6nQoeG2o7qg.6MKAdcs4sy5" displaytext="2.5 Traditional Lab Process vs i-STAT Process" expand="false" type="slide" />
+            <slidelink slideid="_player.6nQoeG2o7qg.6YCCoQuc8f1" displaytext="2.6 Why Should You Care about Switching to the i-STAT System?" expand="false" type="slide" />
+            <slidelink slideid="_player.6nQoeG2o7qg.6FGhtTJL05W" displaytext="2.7 Goals of the i-STAT System Training Program" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink HideLink="false" slideid="_player.66YQmnMCxiW" expand="false" displaytext="i-STAT Orientation">
+        <slidelink slideid="_player.66YQmnMCxiW" displaytext="3 i-STAT Orientation" expand="false" type="slide">
           <links>
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.5xYq3PtDqHK" expand="false" displaytext="Welcome and Learning Objectives" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.6EzTLl8MYdj" expand="false" displaytext="Handheld External Components" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.5oOUb9gx3VV" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.6i0FEABzcZ4" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.6juRIYD4Lqs" expand="false" displaytext="Batteries: Disposable 9 Volt" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.666SCJE0FSN" expand="false" displaytext="Changing the Batteries: Rechargeable" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.6IyjaI82RfP" expand="false" displaytext="Changing the Batteries: Charging the Rechargeable Battery Pack" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.5tXAg1piTSy" expand="false" displaytext="The Infrared Communication Window" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.5zKw1gwExRE" expand="false" displaytext="The Barcode Scanner" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.67z9yCSB3bP" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.6QnZRTEqHwq" expand="false" displaytext="Handheld Display Screen" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.5vOG9SsdkkN" expand="false" displaytext="Handheld Keys: Arrow Keys" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.6lFaqsbdnlO" expand="false" displaytext="Handheld Keys: ABC Key" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.67V5EUH44KI" expand="false" displaytext="Handheld Keys: Numeric Keys and Decimal Point Key" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.69trpIsSWHh" expand="false" displaytext="Handheld Keys: Menu Key" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.6CZ6oSCyKY9" expand="false" displaytext="Handheld Keys: Power Key" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.6CEicIPcEG7" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.63i35yJflki" expand="false" displaytext="Handheld Cartridge Port" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.5jUVwqnYH3X" expand="false" displaytext="Handheld Test Menu" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.6fsXVn4pwxR" expand="false" displaytext="Administration Menu: Analyzer Status" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.6nLqsQ9NlWE" expand="false" displaytext="Administration Menu: Data Review" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.6Qy2d9LcFuq" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.5pzdSnnxRdP" expand="false" displaytext="General Cartridge Information" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.5brsp84Y7ex" expand="false" displaytext="Cleaning the Handheld" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.69FeyAjfV64" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.5lptTIG2Lu3" expand="false" displaytext="Internal Electronic Simulator" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.62S3QQ2J4Eo" expand="false" displaytext="External Electronic Simulator" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.6Kh9guvV4Hn" expand="false" displaytext="Summary" />
-            <slidelink HideLink="false" slideid="_player.66YQmnMCxiW.5qNAiMDc4MD" expand="false" displaytext="Congratulations" />
+            <slidelink slideid="_player.66YQmnMCxiW.5xYq3PtDqHK" displaytext="3.1 Welcome and Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.6EzTLl8MYdj" displaytext="3.2 Handheld External Components" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.5oOUb9gx3VV" displaytext="3.3 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.6i0FEABzcZ4" displaytext="3.4 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.6juRIYD4Lqs" displaytext="3.5 Batteries: Disposable 9 Volt" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.666SCJE0FSN" displaytext="3.6 Changing the Batteries: Rechargeable" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.6IyjaI82RfP" displaytext="3.7 Changing the Batteries: Charging the Rechargeable Battery Pack" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.5tXAg1piTSy" displaytext="3.8 The Infrared Communication Window" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.5zKw1gwExRE" displaytext="3.9 The Barcode Scanner" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.67z9yCSB3bP" displaytext="3.10 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.6QnZRTEqHwq" displaytext="3.11 Handheld Display Screen" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.5vOG9SsdkkN" displaytext="3.12 Handheld Keys: Arrow Keys" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.6lFaqsbdnlO" displaytext="3.13 Handheld Keys: ABC Key" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.67V5EUH44KI" displaytext="3.14 Handheld Keys: Numeric Keys and Decimal Point Key" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.69trpIsSWHh" displaytext="3.15 Handheld Keys: Menu Key" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.6CZ6oSCyKY9" displaytext="3.16 Handheld Keys: Power Key" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.6CEicIPcEG7" displaytext="3.17 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.63i35yJflki" displaytext="3.18 Handheld Cartridge Port" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.5jUVwqnYH3X" displaytext="3.19 Handheld Test Menu" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.6fsXVn4pwxR" displaytext="3.20 Administration Menu: Analyzer Status" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.6nLqsQ9NlWE" displaytext="3.21 Administration Menu: Data Review" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.6Qy2d9LcFuq" displaytext="3.22 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.5pzdSnnxRdP" displaytext="3.23 General Cartridge Information" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.5brsp84Y7ex" displaytext="3.24 Cleaning the Handheld" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.69FeyAjfV64" displaytext="3.25 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.5lptTIG2Lu3" displaytext="3.26 Internal Electronic Simulator" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.62S3QQ2J4Eo" displaytext="3.27 External Electronic Simulator" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.6Kh9guvV4Hn" displaytext="3.28 Summary" expand="false" type="slide" />
+            <slidelink slideid="_player.66YQmnMCxiW.5qNAiMDc4MD" displaytext="3.29 Congratulations" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o" expand="false" displaytext="Sample Collection and Handling">
+        <slidelink slideid="_player.6m6XeZZ4X5o" displaytext="4 Sample Collection and Handling" expand="false" type="slide">
           <links>
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6PF24VuLzUQ" expand="false" displaytext="Introduction" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.5mCkVtcGhQL" expand="false" displaytext="Learning Objectives" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6ZmVB11h0sD" expand="false" displaytext="i-STAT Cartridge Overview" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6EPZF83k5VE" expand="false" displaytext="i-STAT Cartridge Overview, continued" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6N0WA5kUBZa" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6q3ehoSPXaI" expand="false" displaytext="i-STAT Cartridge Overview, continued" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6jbOMsE4Uhz" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6luQzrgvcK4" expand="false" displaytext="i-STAT Cartridge Overview" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.5oNfqNxxMeL" expand="false" displaytext="i-STAT Cartridge Overview, continued" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6ljbkjWn9s4" expand="false" displaytext="i-STAT Cartridge Overview, continued" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.5XotqIjrlYq" expand="false" displaytext="i-STAT Cartridge Components" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6InbL61NxJA" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.5o4ky0TXRrM" expand="false" displaytext="Sample Collection Techniques" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6er3iHWKkiS" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6XLAmaMMAer" expand="false" displaytext="General Sample Collection Techniques" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.69MDQrXqQLd" expand="false" displaytext="Additional Sample Collection Techniques Using a Capillary Tube" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.5bNhC9ycMOt" expand="false" displaytext="Additional Sample Collection Techniques Using a Fingerstick" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6e7bYUrTBoj" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.5o0Oxw1jVRn" expand="false" displaytext="Factors That May Affect Results" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.5VGs7x9sL3c" expand="false" displaytext="Factors That May Affect Sodium Results" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6m531efJXRO" expand="false" displaytext="Factors That May Affect Potassium Results" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.5pGKkKngIwk" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.5kpTc5t2MWZ" expand="false" displaytext="Factors That May Affect Glucose Results" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.5zbOmingUyZ" expand="false" displaytext="Factors That May Affect Creatinine Results" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6WKFualNCsL" expand="false" displaytext="Factors That May Affect Lactate Results" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.5y954CLQbyh" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6kdaowIUcWj" expand="false" displaytext="Factors That May Affect Hematocrit Results" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6OOu47eoMnB" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6Am3G26JjP0" expand="false" displaytext="Factors That May Affect Ionized Calcium Results" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.5qzxr0ZiM3F" expand="false" displaytext="Factors That May Affect pH Results" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6f2Vjz6XiGK" expand="false" displaytext="Factors That May Affect pCO2 Results When Using a Blood Gas Cartridge" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.5s83vPnz3lp" expand="false" displaytext="Factors That May Affect pCO2 Results When Using an EC8+ Cartridge" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.5pBDjewJwpI" expand="false" displaytext="Factors That May Affect pO2 Results" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6RCEtr9juiN" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6iUlMg15o4m" expand="false" displaytext="Factors That May Affect Cardiac Marker Results" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6BqFbC1wSdQ" expand="false" displaytext="Factors That May Affect ACT Results" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.5md2Fk0OLBk" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.5bEoqZCn8PI" expand="false" displaytext="Factors That May Affect TCO2 Results" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6b7qBF695tP" expand="false" displaytext="Factors That May Affect Prothrombin Time Results" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6ELvQJhKqX5" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6O9bsO6DeEH" expand="false" displaytext="Summary" />
-            <slidelink HideLink="false" slideid="_player.6m6XeZZ4X5o.6DbJBM2h6MB" expand="false" displaytext="Congratulations" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6PF24VuLzUQ" displaytext="4.1 Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.5mCkVtcGhQL" displaytext="4.2 Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6ZmVB11h0sD" displaytext="4.3 i-STAT Cartridge Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6EPZF83k5VE" displaytext="4.4 i-STAT Cartridge Overview, continued" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6N0WA5kUBZa" displaytext="4.5 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6q3ehoSPXaI" displaytext="4.6 i-STAT Cartridge Overview, continued" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6jbOMsE4Uhz" displaytext="4.7 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6luQzrgvcK4" displaytext="4.8 i-STAT Cartridge Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.5oNfqNxxMeL" displaytext="4.9 i-STAT Cartridge Overview, continued" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6ljbkjWn9s4" displaytext="4.10 i-STAT Cartridge Overview, continued" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.5XotqIjrlYq" displaytext="4.11 i-STAT Cartridge Components" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6InbL61NxJA" displaytext="4.12 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.5o4ky0TXRrM" displaytext="4.13 Sample Collection Techniques" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6er3iHWKkiS" displaytext="4.14 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6XLAmaMMAer" displaytext="4.15 General Sample Collection Techniques" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.69MDQrXqQLd" displaytext="4.16 Additional Sample Collection Techniques Using a Capillary Tube" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.5bNhC9ycMOt" displaytext="4.17 Additional Sample Collection Techniques Using a Fingerstick" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6e7bYUrTBoj" displaytext="4.18 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.5o0Oxw1jVRn" displaytext="4.19 Factors That May Affect Results" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.5VGs7x9sL3c" displaytext="4.20 Factors That May Affect Sodium Results" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6m531efJXRO" displaytext="4.21 Factors That May Affect Potassium Results" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.5pGKkKngIwk" displaytext="4.22 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.5kpTc5t2MWZ" displaytext="4.23 Factors That May Affect Glucose Results" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.5zbOmingUyZ" displaytext="4.24 Factors That May Affect Creatinine Results" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6WKFualNCsL" displaytext="4.25 Factors That May Affect Lactate Results" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.5y954CLQbyh" displaytext="4.26 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6kdaowIUcWj" displaytext="4.27 Factors That May Affect Hematocrit Results" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6OOu47eoMnB" displaytext="4.28 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6Am3G26JjP0" displaytext="4.29 Factors That May Affect Ionized Calcium Results" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.5qzxr0ZiM3F" displaytext="4.30 Factors That May Affect pH Results" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6f2Vjz6XiGK" displaytext="4.31 Factors That May Affect pCO2 Results When Using a Blood Gas Cartridge" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.5s83vPnz3lp" displaytext="4.32 Factors That May Affect pCO2 Results When Using an EC8+ Cartridge" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.5pBDjewJwpI" displaytext="4.33 Factors That May Affect pO2 Results" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6RCEtr9juiN" displaytext="4.34 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6iUlMg15o4m" displaytext="4.35 Factors That May Affect Cardiac Marker Results" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6BqFbC1wSdQ" displaytext="4.36 Factors That May Affect ACT Results" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.5md2Fk0OLBk" displaytext="4.37 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.5bEoqZCn8PI" displaytext="4.38 Factors That May Affect TCO2 Results" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6b7qBF695tP" displaytext="4.39 Factors That May Affect Prothrombin Time Results" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6ELvQJhKqX5" displaytext="4.40 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6O9bsO6DeEH" displaytext="4.41 Summary" expand="false" type="slide" />
+            <slidelink slideid="_player.6m6XeZZ4X5o.6DbJBM2h6MB" displaytext="4.42 Congratulations" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM" expand="false" displaytext="Patient Test">
+        <slidelink slideid="_player.6j4h2cjAuvM" displaytext="5 Patient Test" expand="false" type="slide">
           <links>
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.63lPHJfa9ph" expand="false" displaytext="Welcome and Learning Objectives" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.62dMV1gFRT8" expand="false" displaytext="Preparing the Handheld: Turning the Handheld On and Selecting Patient Test" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6dsPt34jbBg" expand="false" displaytext="Preparing the Handheld: Entering Operator ID via Barcode Scan" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6FSZBJamJtL" expand="false" displaytext="Preparing the Handheld: Entering Operator ID Manually" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6ix8tBMT6QA" expand="false" displaytext="Preparing the Handheld: Operator Competency Notification" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.5g6Fx8IVAst" expand="false" displaytext="Preparing the Handheld: Entering Patient ID via Barcode Scan" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6WCQMM5dEFt" expand="false" displaytext="Preparing the Handheld: Entering Patient ID Manually" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.5bwraSUvIiY" expand="false" displaytext="Preparing the Handheld: Positive Patient ID" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6MJ7P1yjQG0" expand="false" displaytext="Preparing the Handheld: Scanning Cartridge Lot Number" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.61Lwy07GSmR" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.5k504hKKXcE" expand="false" displaytext="Running a Patient Test: The Insert Cartridge Screen" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6D6tZyN6Wa0" expand="false" displaytext="Running a Patient Test: Cartridge Filling Overview" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6K2cLt7kOjg" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.5cHMrJrqNLY" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.5mO1dL0QzcS" expand="false" displaytext="BNP Cartridges" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.5o6jrXgQV1N" expand="false" displaytext="Cardiac Cartridges" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.5mmUFCaBah5" expand="false" displaytext="Chemistry Cartridges" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6fJwJcrpUHj" expand="false" displaytext="CHEM8+ Cartridges" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6QNbiZH5Nmz" expand="false" displaytext="EC8+ Cartridges" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6D6IQUmhNZo" expand="false" displaytext="Arterial Blood Gas (ABG) Cartridges" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6fmScFhYTcE" expand="false" displaytext="CG4+ Cartridges" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.69LnwuhMHcr" expand="false" displaytext="ACT Cartridges" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6edOCQ6b2gu" expand="false" displaytext="PT/INR Cartridge" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.5ql4F5h5NwI" expand="false" displaytext="Using an Evacuated Tube to Fill a Cartridge" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6O9M4sPX93K" expand="false" displaytext="Using a Dispensing Tip to Fill a Cartridge" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6YfiEpcA9ZE" expand="false" displaytext="Using a Syringe to Fill a Cartridge" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.61UM0mLPOXS" expand="false" displaytext="Using a Capillary Tube to Fill a Cartridge" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6Spd7Q3j7aM" expand="false" displaytext="Running a Patient Test: Immediately after Inserting the Cartridge" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.60ZGi7SJiCY" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6H1BXvo21WC" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6f5zlhTJFWU" expand="false" displaytext="Running a Patient Test: Customizable Test Settings" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6obTTqRXzds" expand="false" displaytext="Running a Patient Test: Using the Test Select Function" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6ANbkFNWeNX" expand="false" displaytext="Running a Patient Test: Overview of the Chart Page" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6S93L3yNQfm" expand="false" displaytext="Chart Page: Entering Sample Type" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6Fo6tX9Au0b" expand="false" displaytext="Chart Page: Entering a Patient Temperature" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.61Ril53jzCC" expand="false" displaytext="Chart Page: Entering FIO2" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6QMTpLqcdtM" expand="false" displaytext="Chart Page: Entering CPB" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.68sBJVHyY9u" expand="false" displaytext="Interpreting Test Results: The Results Screen" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6dR2u84mNsV" expand="false" displaytext="Interpreting Test Results: Reference Range Graphs" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6OAEFFaYz8p" expand="false" displaytext="Interpreting Test Results: Critical Value Alerts" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.61f74mtySwa" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6pLKl04mG4y" expand="false" displaytext="Interpreting Test Results: Out of Reportable Range Flags" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6qPVjVJM78G" expand="false" displaytext="Interpreting Test Results: Star Outs (***)" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.696q8ZeyXib" expand="false" displaytext="Responding to Patient Tests: Comment Codes" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6J6lzlPqxfd" expand="false" displaytext="Transmitting Results: Downloader" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6RZ1qSlMQH3" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.5rXJrd6vBCS" expand="false" displaytext="Transmitting Results: Wireless" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.5a5OIVYGq4k" expand="false" displaytext="Printing Results with a Printer Connected to a Downloader" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6Z9isbFMyzs" expand="false" displaytext="Printing Results with the i-STAT Portable Printer" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6bjFshgEcnZ" expand="false" displaytext="Recalling Previous Results: Last Result" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.5rHbieNIyg2" expand="false" displaytext="Summary" />
-            <slidelink HideLink="false" slideid="_player.6j4h2cjAuvM.6LshIjWpDBy" expand="false" displaytext="Congratulations" />
+            <slidelink slideid="_player.6j4h2cjAuvM.63lPHJfa9ph" displaytext="5.1 Welcome and Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.62dMV1gFRT8" displaytext="5.2 Preparing the Handheld: Turning the Handheld On and Selecting Patient Test" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6dsPt34jbBg" displaytext="5.3 Preparing the Handheld: Entering Operator ID via Barcode Scan" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6FSZBJamJtL" displaytext="5.4 Preparing the Handheld: Entering Operator ID Manually" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6ix8tBMT6QA" displaytext="5.5 Preparing the Handheld: Operator Competency Notification" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.5g6Fx8IVAst" displaytext="5.6 Preparing the Handheld: Entering Patient ID via Barcode Scan" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6WCQMM5dEFt" displaytext="5.7 Preparing the Handheld: Entering Patient ID Manually" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.5bwraSUvIiY" displaytext="5.8 Preparing the Handheld: Positive Patient ID" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6MJ7P1yjQG0" displaytext="5.9 Preparing the Handheld: Scanning Cartridge Lot Number" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.61Lwy07GSmR" displaytext="5.10 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.5k504hKKXcE" displaytext="5.11 Running a Patient Test: The Insert Cartridge Screen" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6D6tZyN6Wa0" displaytext="5.12 Running a Patient Test: Cartridge Filling Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6K2cLt7kOjg" displaytext="5.13 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.5cHMrJrqNLY" displaytext="5.14 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.5mO1dL0QzcS" displaytext="5.15 BNP Cartridges" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.5o6jrXgQV1N" displaytext="5.16 Cardiac Cartridges" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.5mmUFCaBah5" displaytext="5.17 Chemistry Cartridges" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6fJwJcrpUHj" displaytext="5.18 CHEM8+ Cartridges" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6QNbiZH5Nmz" displaytext="5.19 EC8+ Cartridges" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6D6IQUmhNZo" displaytext="5.20 Arterial Blood Gas (ABG) Cartridges" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6fmScFhYTcE" displaytext="5.21 CG4+ Cartridges" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.69LnwuhMHcr" displaytext="5.22 ACT Cartridges" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6edOCQ6b2gu" displaytext="5.23 PT/INR Cartridge" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.5ql4F5h5NwI" displaytext="5.24 Using an Evacuated Tube to Fill a Cartridge" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6O9M4sPX93K" displaytext="5.25 Using a Dispensing Tip to Fill a Cartridge" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6YfiEpcA9ZE" displaytext="5.26 Using a Syringe to Fill a Cartridge" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.61UM0mLPOXS" displaytext="5.27 Using a Capillary Tube to Fill a Cartridge" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6Spd7Q3j7aM" displaytext="5.28 Running a Patient Test: Immediately after Inserting the Cartridge" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.60ZGi7SJiCY" displaytext="5.29 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6H1BXvo21WC" displaytext="5.30 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6f5zlhTJFWU" displaytext="5.31 Running a Patient Test: Customizable Test Settings" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6obTTqRXzds" displaytext="5.32 Running a Patient Test: Using the Test Select Function" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6ANbkFNWeNX" displaytext="5.33 Running a Patient Test: Overview of the Chart Page" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6S93L3yNQfm" displaytext="5.34 Chart Page: Entering Sample Type" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6Fo6tX9Au0b" displaytext="5.35 Chart Page: Entering a Patient Temperature" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.61Ril53jzCC" displaytext="5.36 Chart Page: Entering FIO2" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6QMTpLqcdtM" displaytext="5.37 Chart Page: Entering CPB" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.68sBJVHyY9u" displaytext="5.38 Interpreting Test Results: The Results Screen" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6dR2u84mNsV" displaytext="5.39 Interpreting Test Results: Reference Range Graphs" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6OAEFFaYz8p" displaytext="5.40 Interpreting Test Results: Critical Value Alerts" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.61f74mtySwa" displaytext="5.41 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6pLKl04mG4y" displaytext="5.42 Interpreting Test Results: Out of Reportable Range Flags" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6qPVjVJM78G" displaytext="5.43 Interpreting Test Results: Star Outs (***)" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.696q8ZeyXib" displaytext="5.44 Responding to Patient Tests: Comment Codes" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6J6lzlPqxfd" displaytext="5.45 Transmitting Results: Downloader" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6RZ1qSlMQH3" displaytext="5.46 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.5rXJrd6vBCS" displaytext="5.47 Transmitting Results: Wireless" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.5a5OIVYGq4k" displaytext="5.48 Printing Results with a Printer Connected to a Downloader" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6Z9isbFMyzs" displaytext="5.49 Printing Results with the i-STAT Portable Printer" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6bjFshgEcnZ" displaytext="5.50 Recalling Previous Results: Last Result" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.5rHbieNIyg2" displaytext="5.51 Summary" expand="false" type="slide" />
+            <slidelink slideid="_player.6j4h2cjAuvM.6LshIjWpDBy" displaytext="5.52 Congratulations" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO" expand="false" displaytext="Quality Control">
+        <slidelink slideid="_player.5WRaMmHXWcO" displaytext="6 Quality Control" expand="true" type="slide">
           <links>
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.5qZ5EMvwx5Y" expand="false" displaytext="Welcome and Learning Objectives" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.5csMtzZT73E" expand="false" displaytext="i-STAT System Quality Control" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.66zwE354qB9" expand="false" displaytext="Internal Electronic Simulator" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.6knk2TpXzHl" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.5qL5p3TJsqr" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.5lptxtDNKxf" expand="false" displaytext="External Electronic Simulator" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.6JOZI5AW8bz" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.5vma1cJNbXc" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.6bqPvrMsu0C" expand="false" displaytext="Using Liquid Controls: Liquid Quality Control Pass/Fail Determination" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.5hjYNX9Rfua" expand="false" displaytext="Quality Control Using Liquid Controls: Liquid Quality Control Schedule and Lockout" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.6AQy0HzRHRQ" expand="false" displaytext="Quality Control Using Liquid Controls: Customizable Reportable Ranges" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.6p2v4fszRu1" expand="false" displaytext="Using Liquid Controls: Pass/Fail Determination with Numeric Display" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.6jRpdcpIp8G" expand="false" displaytext="Using Liquid Controls: Pass/Fail Determination with Suppressed Display" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.6r5Wm4B6p8S" expand="false" displaytext="Quality Control Using Liquid Controls: Value Assignment Sheets and Electronic Value Assignment Sheets" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.5kCtJ7ikfJA" expand="false" displaytext="Quality Control Using i-STAT TriControls" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.6MZRHxrNcT2" expand="false" displaytext="Quality Control Using Liquid Controls for Chemistry Cartridges" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.6Wc6lE3OpdA" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.5qlhvDWQMn1" expand="false" displaytext="Quality Control Using Liquid Controls for Blood Gas Cartridges" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.6iQC94GEFyd" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.5wAPy0gOGpg" expand="false" displaytext="Performing a Quality Control Test Using Liquid Controls" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.6UKp0qqGsXu" expand="false" displaytext="Performing a Quality Control Test Using Liquid Quality Control Auto Pass/Fail" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.5jZfc4cDb4g" expand="false" displaytext="Performing a Quality Control Test Using Liquid Quality Control Schedule and Lockout" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.5iQwsFpuwBa" expand="false" displaytext="Quality Control Using RNA Hematocrit Liquid Controls" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.62oA1TjJgxb" expand="false" displaytext="Performing a Quality Control Test Using RNA Hematocrit Liquid Controls" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.6CNy9XXarF3" expand="false" displaytext="Quality Control Using Liquid Controls for Coagulation Cartridges" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.6ofrRav40Wf" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.61nJmanSWGW" expand="false" displaytext="Performing a Quality Control Test Using Liquid Controls for Coagulation Cartridges" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.69NrJpHmJXm" expand="false" displaytext="Quality Control Using Liquid Controls for Cardiac Marker Cartridges" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.5jC4odTduZt" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.6T4HSVWLdjC" expand="false" displaytext="Performing a Quality Control Test Using Liquid Controls for Cardiac Marker Cartridges" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.611AhQXGOhD" expand="false" displaytext="Quality Control Using Liquid Controls for CK-MB Cartridges" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.6OxpgvsXEex" expand="false" displaytext="Performing a Quality Control Test Using Liquid Controls for CK-MB Cartridges" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.5bDGJwrXDsg" expand="false" displaytext="Summary" />
-            <slidelink HideLink="false" slideid="_player.5WRaMmHXWcO.68uRU1GWqPM" expand="false" displaytext="Congratulations" />
+            <slidelink slideid="_player.5WRaMmHXWcO.5qZ5EMvwx5Y" displaytext="6.1 Welcome and Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.5csMtzZT73E" displaytext="6.2 i-STAT System Quality Control" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.66zwE354qB9" displaytext="6.3 Internal Electronic Simulator" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.6knk2TpXzHl" displaytext="6.4 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.5qL5p3TJsqr" displaytext="6.5 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.5lptxtDNKxf" displaytext="6.6 External Electronic Simulator" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.6JOZI5AW8bz" displaytext="6.7 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.5vma1cJNbXc" displaytext="6.8 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.6bqPvrMsu0C" displaytext="6.9 Using Liquid Controls: Liquid Quality Control Pass/Fail Determination" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.5hjYNX9Rfua" displaytext="6.10 Quality Control Using Liquid Controls: Liquid Quality Control Schedule and Lockout" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.6AQy0HzRHRQ" displaytext="6.11 Quality Control Using Liquid Controls: Customizable Reportable Ranges" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.6p2v4fszRu1" displaytext="6.12 Using Liquid Controls: Pass/Fail Determination with Numeric Display" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.6jRpdcpIp8G" displaytext="6.13 Using Liquid Controls: Pass/Fail Determination with Suppressed Display" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.6r5Wm4B6p8S" displaytext="6.14 Quality Control Using Liquid Controls: Value Assignment Sheets and Electronic Value Assignment Sheets" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.5kCtJ7ikfJA" displaytext="6.15 Quality Control Using i-STAT TriControls" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.6MZRHxrNcT2" displaytext="6.16 Quality Control Using Liquid Controls for Chemistry Cartridges" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.6Wc6lE3OpdA" displaytext="6.17 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.5qlhvDWQMn1" displaytext="6.18 Quality Control Using Liquid Controls for Blood Gas Cartridges" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.6iQC94GEFyd" displaytext="6.19 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.5wAPy0gOGpg" displaytext="6.20 Performing a Quality Control Test Using Liquid Controls" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.6UKp0qqGsXu" displaytext="6.21 Performing a Quality Control Test Using Liquid Quality Control Auto Pass/Fail" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.5jZfc4cDb4g" displaytext="6.22 Performing a Quality Control Test Using Liquid Quality Control Schedule and Lockout" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.5iQwsFpuwBa" displaytext="6.23 Quality Control Using RNA Hematocrit Liquid Controls" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.62oA1TjJgxb" displaytext="6.24 Performing a Quality Control Test Using RNA Hematocrit Liquid Controls" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.6CNy9XXarF3" displaytext="6.25 Quality Control Using Liquid Controls for Coagulation Cartridges" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.6ofrRav40Wf" displaytext="6.26 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.61nJmanSWGW" displaytext="6.27 Performing a Quality Control Test Using Liquid Controls for Coagulation Cartridges" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.69NrJpHmJXm" displaytext="6.28 Quality Control Using Liquid Controls for Cardiac Marker Cartridges" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.5jC4odTduZt" displaytext="6.29 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.6T4HSVWLdjC" displaytext="6.30 Performing a Quality Control Test Using Liquid Controls for Cardiac Marker Cartridges" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.611AhQXGOhD" displaytext="6.31 Quality Control Using Liquid Controls for CK-MB Cartridges" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.6OxpgvsXEex" displaytext="6.32 Performing a Quality Control Test Using Liquid Controls for CK-MB Cartridges" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.5bDGJwrXDsg" displaytext="6.33 Summary" expand="false" type="slide" />
+            <slidelink slideid="_player.5WRaMmHXWcO.68uRU1GWqPM" displaytext="6.34 Congratulations" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink HideLink="false" slideid="_player.5ckwVUVuBAJ" expand="false" displaytext="Troubleshooting">
+        <slidelink slideid="_player.5ckwVUVuBAJ" displaytext="7 Troubleshooting" expand="true" type="slide">
           <links>
-            <slidelink HideLink="false" slideid="_player.5ckwVUVuBAJ.6lAKZ1VPziH" expand="false" displaytext="Welcome and Learning Objectives" />
-            <slidelink HideLink="false" slideid="_player.5ckwVUVuBAJ.5v2YWDmf53n" expand="false" displaytext="i-STAT System Troubleshooting Overview" />
-            <slidelink HideLink="false" slideid="_player.5ckwVUVuBAJ.6FtNNtrSy0R" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.5ckwVUVuBAJ.5X8yNS5zQTd" expand="false" displaytext="Dead Batteries/Replace Batteries" />
-            <slidelink HideLink="false" slideid="_player.5ckwVUVuBAJ.5fB4asNKxR6" expand="false" displaytext="Cartridge Preburst/Use Another Cartridge" />
-            <slidelink HideLink="false" slideid="_player.5ckwVUVuBAJ.61jr0w7DBQY" expand="false" displaytext="Unable to Position Sample / Use Another Cartridge" />
-            <slidelink HideLink="false" slideid="_player.5ckwVUVuBAJ.6idz0zYbBEd" expand="false" displaytext="Sample Positioned Short of Fill Mark / Use Another Cartridge" />
-            <slidelink HideLink="false" slideid="_player.5ckwVUVuBAJ.5cX3J1PqetS" expand="false" displaytext="Sample Positioned Beyond Fill Mark / Use Another Cartridge" />
-            <slidelink HideLink="false" slideid="_player.5ckwVUVuBAJ.5sQi3QOxx4w" expand="false" displaytext="Cartridge Type Not Recognized / Use Another Cartridge" />
-            <slidelink HideLink="false" slideid="_player.5ckwVUVuBAJ.6AfYjxPB1Bt" expand="false" displaytext="Cartridge Error/Use Another Cartridge" />
-            <slidelink HideLink="false" slideid="_player.5ckwVUVuBAJ.6XixMlhuVQG" expand="false" displaytext="Troubleshooting - Cannot Transmit Results" />
-            <slidelink HideLink="false" slideid="_player.5ckwVUVuBAJ.6DOkYmIjr05" expand="false" displaytext="Final Thoughts" />
-            <slidelink HideLink="false" slideid="_player.5ckwVUVuBAJ.6SvmSDZyleQ" expand="false" displaytext="Learning Check" />
-            <slidelink HideLink="false" slideid="_player.5ckwVUVuBAJ.6RfGDAlQI4D" expand="false" displaytext="Summary" />
-            <slidelink HideLink="false" slideid="_player.5ckwVUVuBAJ.6k7KJ2KNLSd" expand="false" displaytext="Congratulations" />
+            <slidelink slideid="_player.5ckwVUVuBAJ.6lAKZ1VPziH" displaytext="7.1 Welcome and Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5ckwVUVuBAJ.5v2YWDmf53n" displaytext="7.2 i-STAT System Troubleshooting Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.5ckwVUVuBAJ.6FtNNtrSy0R" displaytext="7.3 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.5ckwVUVuBAJ.5X8yNS5zQTd" displaytext="7.4 Dead Batteries/Replace Batteries" expand="false" type="slide" />
+            <slidelink slideid="_player.5ckwVUVuBAJ.5fB4asNKxR6" displaytext="7.5 Cartridge Preburst/Use Another Cartridge" expand="false" type="slide" />
+            <slidelink slideid="_player.5ckwVUVuBAJ.61jr0w7DBQY" displaytext="7.6 Unable to Position Sample / Use Another Cartridge" expand="false" type="slide" />
+            <slidelink slideid="_player.5ckwVUVuBAJ.6idz0zYbBEd" displaytext="7.7 Sample Positioned Short of Fill Mark / Use Another Cartridge" expand="false" type="slide" />
+            <slidelink slideid="_player.5ckwVUVuBAJ.5cX3J1PqetS" displaytext="7.8 Sample Positioned Beyond Fill Mark / Use Another Cartridge" expand="false" type="slide" />
+            <slidelink slideid="_player.5ckwVUVuBAJ.5sQi3QOxx4w" displaytext="7.9 Cartridge Type Not Recognized / Use Another Cartridge" expand="false" type="slide" />
+            <slidelink slideid="_player.5ckwVUVuBAJ.6AfYjxPB1Bt" displaytext="7.10 Cartridge Error/Use Another Cartridge" expand="false" type="slide" />
+            <slidelink slideid="_player.5ckwVUVuBAJ.6XixMlhuVQG" displaytext="7.11 Troubleshooting - Cannot Transmit Results" expand="false" type="slide" />
+            <slidelink slideid="_player.5ckwVUVuBAJ.6DOkYmIjr05" displaytext="7.12 Final Thoughts" expand="false" type="slide" />
+            <slidelink slideid="_player.5ckwVUVuBAJ.6SvmSDZyleQ" displaytext="7.13 Learning Check" expand="false" type="slide" />
+            <slidelink slideid="_player.5ckwVUVuBAJ.6RfGDAlQI4D" displaytext="7.14 Summary" expand="false" type="slide" />
+            <slidelink slideid="_player.5ckwVUVuBAJ.6k7KJ2KNLSd" displaytext="7.15 Congratulations" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink HideLink="false" slideid="_player.5vzIsrmtvuS" expand="false" displaytext="Conclusion">
+        <slidelink slideid="_player.5vzIsrmtvuS" displaytext="8 Conclusion" expand="true" type="slide">
           <links>
-            <slidelink HideLink="false" slideid="_player.5vzIsrmtvuS.6dElKI0h2tq" expand="false" displaytext="Congratulations" />
+            <slidelink slideid="_player.5vzIsrmtvuS.6dElKI0h2tq" displaytext="8.1 Congratulations" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
