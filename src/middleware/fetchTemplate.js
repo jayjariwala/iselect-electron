@@ -8,13 +8,15 @@ function formatTemplates(templates, activeTemp) {
 
         if (activeTemp !== 0) {
             if (templateList.tempId === activeTemp) {
-                return `<a class="mdl-navigation__link current" href="#" data-id="${templateList.treeSelection}" data-tid="${templateList.tempId}" >${templateList.template}
+                return `<a class="mdl-navigation__link current" href="#" data-id="${templateList.treeSelection}" data-tid="${templateList.tempId}" >
+                <span>${templateList.template}</span>
             <button type="button" class="mdl-chip__action del-icon" >
               <i class="material-icons del" data-id="${templateList.tempId}">delete</i>
             </button>
           </a>`
             } else {
-                return `<a class="mdl-navigation__link" href="#" data-id="${templateList.treeSelection}" data-tid="${templateList.tempId}" >${templateList.template}
+                return `<a class="mdl-navigation__link" href="#" data-id="${templateList.treeSelection}" data-tid="${templateList.tempId}" >
+                    <span>${templateList.template}</span>
                     <button type="button" class="mdl-chip__action del-icon" >
                       <i class="material-icons del" data-id="${templateList.tempId}">delete</i>
                     </button>
@@ -22,13 +24,15 @@ function formatTemplates(templates, activeTemp) {
             }
         } else if (activeTemp === 0) {
             if (index === 0) {
-                return `<a class="mdl-navigation__link current" href="#" data-id="${templateList.treeSelection}" data-tid="${templateList.tempId}" >${templateList.template}
+                return `<a class="mdl-navigation__link current" href="#" data-id="${templateList.treeSelection}" data-tid="${templateList.tempId}" >
+                <span>${templateList.template}</span>
                 <button type="button" class="mdl-chip__action del-icon" >
                   <i class="material-icons" data-id="${templateList.tempId}">delete</i>
                 </button>
               </a>`
             } else {
-                return `<a class="mdl-navigation__link" href="#" data-id="${templateList.treeSelection}" data-tid="${templateList.tempId}" >${templateList.template}
+                return `<a class="mdl-navigation__link" href="#" data-id="${templateList.treeSelection}" data-tid="${templateList.tempId}" >
+                    <span>${templateList.template}</span>
                     <button type="button" class="mdl-chip__action del-icon" >
                       <i class="material-icons" data-id="${templateList.tempId}">delete</i>
                     </button>

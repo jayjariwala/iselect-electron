@@ -127,21 +127,38 @@ ipc.on('sendData', (event, html5json, xmljson) => {
   // Generate Button click listener
   $('#generateXML').on('click', function () {
     const selectedTree = $('#jstree').jstree('get_selected');
-    console.log(selectedTree);
     const manipulatedXmlNav = generateXML(originalxmlJSON, selectedTree);
     let newXmlNavBar = JSON.parse(JSON.stringify(originalxmlJSON));
     newXmlNavBar.bwFrame.nav_data[0].outline[0].links[0].slidelink = manipulatedXmlNav;
     const manipulatedHtmlNav = generateJS(html5json, selectedTree);
     let newHtmlNavBar = JSON.parse(JSON.stringify(html5json));
     newHtmlNavBar.navData.outline.links = manipulatedHtmlNav;
-    ipc.send('generateNavBar', newXmlNavBar, newHtmlNavBar);
+    const templateName = $('.current span').text();
+    if (templateName === "") {
+      ipc.send('generateNavBar', newXmlNavBar, newHtmlNavBar, "untitled");
+    } else {
+      ipc.send('generateNavBar', newXmlNavBar, newHtmlNavBar, templateName);
+    }
   })
+
+  $('.preview').on('click', () => {
+    const selectedTree = $('#jstree').jstree('get_selected');
+    if (selectedTree.length === 0) {
+      errorDialog.showModal();
+    } else {
+      const manipulatedXmlNav = generateXML(originalxmlJSON, selectedTree);
+      let newXmlNavBar = JSON.parse(JSON.stringify(originalxmlJSON));
+      newXmlNavBar.bwFrame.nav_data[0].outline[0].links[0].slidelink = manipulatedXmlNav;
+      const manipulatedHtmlNav = generateJS(html5json, selectedTree);
+      let newHtmlNavBar = JSON.parse(JSON.stringify(html5json));
+      newHtmlNavBar.navData.outline.links = manipulatedHtmlNav;
+      ipc.send('previewTemplate', newXmlNavBar, newHtmlNavBar);
+    }
+  });
 
 })
 
-$('.preview').on('click', () => {
-  $('#jstree').jstree().check_node(["0", "1", "0.0", "0.1", "0.2", "1.0", "1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "2.0", "2.1"]);
-});
+
 
 $('.save').on('click', () => {
   const selectedTree = $('#jstree').jstree('get_selected');
