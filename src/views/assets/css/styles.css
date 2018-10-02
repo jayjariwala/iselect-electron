@@ -3,9 +3,7 @@ body {
   padding: 0;
 }
 
-.splash_container {
-  background-color: papayawhip;
-}
+.splash_container {}
 
 .stick-to-right {
   position: fixed !important;
@@ -14,6 +12,12 @@ body {
 .preview {
   bottom: 15px;
   right: 110px;
+}
+
+.mdl-spinner {
+  text-align: center;
+  position: fixed;
+  left: 48%;
 }
 
 .publish {

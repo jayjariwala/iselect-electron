@@ -17,13 +17,13 @@ const deleteTemplate = require('../middleware/deleteTemplate');
 const updateNavigation = require('../middleware/update-navigation');
 const path = require('path');
 
-module.exports = function (html5json, xmljson) {
-    let mainWindow = new BrowserWindow({
-        width: 1080,
-        height: 600,
-    });
+module.exports = function (mainWindow, html5json, xmljson) {
+
+    mainWindow.setSize(1080, 600);
+    mainWindow.center();
+
     mainWindow.loadURL(`file://${__dirname}/../views/navigation.html`);
-    mainWindow.webContents.openDevTools();
+
     const template = [{
             label: 'Edit',
             submenu: [{
@@ -95,15 +95,6 @@ module.exports = function (html5json, xmljson) {
                     role: 'close'
                 }
             ]
-        },
-        {
-            role: 'help',
-            submenu: [{
-                label: 'Learn More',
-                click() {
-                    require('electron').shell.openExternal('https://electronjs.org')
-                }
-            }]
         }
     ]
 
@@ -155,7 +146,7 @@ module.exports = function (html5json, xmljson) {
     })
 
     ipc.on('handle-template', (e, templateName, selectionTree = []) => {
-        console.log(templateName, selectionTree);
+
         handleTemplate(templateName, selectionTree).then((success, fail) => {
             if (success === 'file-updated') {
                 mainWindow.webContents.send('template-added');
@@ -166,6 +157,7 @@ module.exports = function (html5json, xmljson) {
     });
 
     ipc.on('fetch-templates', () => {
+        console.log("fetch the template");
         fetchTemplate().then((success, fail) => {
             if (success) {
                 mainWindow.webContents.send('fetched-templates', success);

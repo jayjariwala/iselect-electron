@@ -1,56 +1,74 @@
+import {
+  app,
+  BrowserWindow
+} from 'electron';
 const electron = require('electron');
-const app = electron.app;
-const BrowserWindow = electron.BrowserWindow;
-const path = require('path');
-const splashWindowController = require('./controller/splashWindowController');
-// const splashWindowController = require('./controller/')
-// const treeLoader = require('./threeloader.js');
-// const generateXML =  require('./generateXML.js');
-// let mainWindow;
-// let splashWindow;
-// let BrowseWindow;
-app.on('ready', _=> splashWindowController());
+const ipc = electron.ipcMain;
+const treeLoader = require('./middleware/treeloader.js');
+const generateXML = require('./middleware/generateXML.js');
+const courseSelectionController = require('./controller/courseSelectionController');
+const fetchHtmlFrame = require('./middleware/fetchHtmlFrame.js');
 
-// app.on('ready', _=> { })
-  // splashWindow = new BrowserWindow({
-  //   width: 500,
-  //   height: 300,
-  // });
-  // splashWindow.loadURL(`file://${__dirname}/../views/splash.html`);
-  // // mainWindow.loadURL(`file://${__dirname}/../views/navigation.html`);
+// Handle creating/removing shortcuts on Windows when installing/uninstalling.
+if (require('electron-squirrel-startup')) { // eslint-disable-line global-require
+  app.quit();
+}
 
-  // ipc.on('splash_timeout', _=> {
-  //   // mainWindow = new BrowserWindow({
-  //   //   width: 800,
-  //   //   height: 500,
-  //   // });
-  //   BrowseWindow = new BrowserWindow({
-  //     width: 800,
-  //     height: 500,
-  //   });
-  //   splashWindow.close();
-  //   BrowseWindow.loadURL(`file://${__dirname}/../views/browse_directory.html`);
-  //   const dialog = require('electron').dialog;
-  //   const browseFolderPath = dialog.showOpenDialog({ properties: [ 'openFile', 'openDirectory', 'multiSelections' ]});
-  //   console.log("Browse folder path", ...browseFolderPath);
+// Keep a global reference of the window object, if you don't, the window will
+// be closed automatically when the JavaScript object is garbage collected.
+let mainWindow;
 
-  //   BrowseWindow.on('closed', _=>{
-  //     BrowseWindow = null;
-  //   })
-  // });
+const createWindow = () => {
+  // Create the browser window.
+  mainWindow = new BrowserWindow({
+    width: 500,
+    height: 300,
+  });
 
-  // ipc.on('load_tree_data', _=> {
-  //   treeLoader(json => {
-  //     mainWindow.webContents.send('jsondata', json);
-  //   });
-  // })
+  // and load the index.html of the app.
+  mainWindow.loadURL(`file://${__dirname}/views/splash.html`);
+  mainWindow.webContents.openDevTools();
 
-  // ipc.on('generateXML', (event, jsondata) => {
-  //   generateXML(jsondata);
-  // })
-
-  // splashWindow.on('closed', _=>{
-  //   splashWindow = null;
-  // })
+  treeLoader(xmljson => {
+    fetchHtmlFrame(html5json => {
+      setTimeout(() => {
+        courseSelectionController(mainWindow, html5json, xmljson);
+      }, 2000);
+    });
+  });
 
 
+  // Emitted when the window is closed.
+  mainWindow.on('closed', () => {
+    console.log("on close called ")
+    // Dereference the window object, usually you would store windows
+    // in an array if your app supports multi windows, this is the time
+    // when you should delete the corresponding element.
+    app.quit();
+  });
+};
+
+// This method will be called when Electron has finished
+// initialization and is ready to create browser windows.
+// Some APIs can only be used after this event occurs.
+app.on('ready', createWindow);
+
+// Quit when all windows are closed.
+app.on('window-all-closed', () => {
+  // On OS X it is common for applications and their menu bar
+  // to stay active until the user quits explicitly with Cmd + Q
+  if (process.platform !== 'darwin') {
+    app.quit();
+  }
+});
+
+app.on('activate', () => {
+  // On OS X it's common to re-create a window in the app when the
+  // dock icon is clicked and there are no other windows open.
+  if (mainWindow === null) {
+    createWindow();
+  }
+});
+
+// In this file you can include the rest of your app's specific main process
+// code. You can also put them in separate files and import them here.
