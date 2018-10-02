@@ -127,8 +127,8 @@
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="true" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
       <control name="submit" enabled="false" />
@@ -151,7 +151,7 @@
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
-      <control name="next" enabled="true" />
+      <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
       <control name="submit" enabled="false" />
@@ -196,8 +196,8 @@
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="true" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
       <control name="submit" enabled="false" />
@@ -219,8 +219,8 @@
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="true" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
       <control name="submit" enabled="false" />
@@ -265,8 +265,8 @@
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="true" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
       <control name="submit" enabled="false" />

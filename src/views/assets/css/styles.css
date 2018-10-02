@@ -19,6 +19,8 @@ body {
 .publish {
   top: 15px;
   right: 20px;
+  background: #ff4081 !important;
+  color: #fff !important;
   z-index: 10;
 }
 

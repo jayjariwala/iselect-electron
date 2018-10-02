@@ -868,8 +868,8 @@
       <control enabled="true" name="replay"/>
       <control enabled="true" name="pauseplay"/>
       <control enabled="true" name="logo"/>
-      <control enabled="true" name="previous"/>
-      <control enabled="true" name="next"/>
+      <control enabled="false" name="previous"/>
+      <control enabled="false" name="next"/>
       <control enabled="true" name="swipeleft"/>
       <control enabled="true" name="swiperight"/>
       <control enabled="false" name="submit"/>
@@ -892,7 +892,7 @@
       <control enabled="true" name="pauseplay"/>
       <control enabled="true" name="logo"/>
       <control enabled="false" name="previous"/>
-      <control enabled="true" name="next"/>
+      <control enabled="false" name="next"/>
       <control enabled="false" name="swipeleft"/>
       <control enabled="true" name="swiperight"/>
       <control enabled="false" name="submit"/>
@@ -937,8 +937,8 @@
       <control enabled="true" name="replay"/>
       <control enabled="true" name="pauseplay"/>
       <control enabled="true" name="logo"/>
-      <control enabled="true" name="previous"/>
-      <control enabled="true" name="next"/>
+      <control enabled="false" name="previous"/>
+      <control enabled="false" name="next"/>
       <control enabled="true" name="swipeleft"/>
       <control enabled="true" name="swiperight"/>
       <control enabled="false" name="submit"/>
@@ -960,8 +960,8 @@
       <control enabled="true" name="replay"/>
       <control enabled="true" name="pauseplay"/>
       <control enabled="true" name="logo"/>
-      <control enabled="true" name="previous"/>
-      <control enabled="true" name="next"/>
+      <control enabled="false" name="previous"/>
+      <control enabled="false" name="next"/>
       <control enabled="false" name="swipeleft"/>
       <control enabled="false" name="swiperight"/>
       <control enabled="false" name="submit"/>
@@ -1006,8 +1006,8 @@
       <control enabled="false" name="replay"/>
       <control enabled="false" name="pauseplay"/>
       <control enabled="true" name="logo"/>
-      <control enabled="true" name="previous"/>
-      <control enabled="true" name="next"/>
+      <control enabled="false" name="previous"/>
+      <control enabled="false" name="next"/>
       <control enabled="true" name="swipeleft"/>
       <control enabled="true" name="swiperight"/>
       <control enabled="false" name="submit"/>
@@ -1171,62 +1171,6 @@
             <slidelink displaytext="3.27 External Electronic Simulator" expand="false" slideid="_player.66YQmnMCxiW.62S3QQ2J4Eo" type="slide"/>
             <slidelink displaytext="3.28 Summary" expand="false" slideid="_player.66YQmnMCxiW.6Kh9guvV4Hn" type="slide"/>
             <slidelink displaytext="3.29 Congratulations" expand="false" slideid="_player.66YQmnMCxiW.5qNAiMDc4MD" type="slide"/>
-          </links>
-        </slidelink>
-        <slidelink displaytext="5 Patient Test" expand="false" slideid="_player.6j4h2cjAuvM" type="slide">
-          <links>
-            <slidelink displaytext="5.1 Welcome and Learning Objectives" expand="false" slideid="_player.6j4h2cjAuvM.63lPHJfa9ph" type="slide"/>
-            <slidelink displaytext="5.2 Preparing the Handheld: Turning the Handheld On and Selecting Patient Test" expand="false" slideid="_player.6j4h2cjAuvM.62dMV1gFRT8" type="slide"/>
-            <slidelink displaytext="5.3 Preparing the Handheld: Entering Operator ID via Barcode Scan" expand="false" slideid="_player.6j4h2cjAuvM.6dsPt34jbBg" type="slide"/>
-            <slidelink displaytext="5.4 Preparing the Handheld: Entering Operator ID Manually" expand="false" slideid="_player.6j4h2cjAuvM.6FSZBJamJtL" type="slide"/>
-            <slidelink displaytext="5.5 Preparing the Handheld: Operator Competency Notification" expand="false" slideid="_player.6j4h2cjAuvM.6ix8tBMT6QA" type="slide"/>
-            <slidelink displaytext="5.6 Preparing the Handheld: Entering Patient ID via Barcode Scan" expand="false" slideid="_player.6j4h2cjAuvM.5g6Fx8IVAst" type="slide"/>
-            <slidelink displaytext="5.7 Preparing the Handheld: Entering Patient ID Manually" expand="false" slideid="_player.6j4h2cjAuvM.6WCQMM5dEFt" type="slide"/>
-            <slidelink displaytext="5.8 Preparing the Handheld: Positive Patient ID" expand="false" slideid="_player.6j4h2cjAuvM.5bwraSUvIiY" type="slide"/>
-            <slidelink displaytext="5.9 Preparing the Handheld: Scanning Cartridge Lot Number" expand="false" slideid="_player.6j4h2cjAuvM.6MJ7P1yjQG0" type="slide"/>
-            <slidelink displaytext="5.10 Learning Check" expand="false" slideid="_player.6j4h2cjAuvM.61Lwy07GSmR" type="slide"/>
-            <slidelink displaytext="5.11 Running a Patient Test: The Insert Cartridge Screen" expand="false" slideid="_player.6j4h2cjAuvM.5k504hKKXcE" type="slide"/>
-            <slidelink displaytext="5.12 Running a Patient Test: Cartridge Filling Overview" expand="false" slideid="_player.6j4h2cjAuvM.6D6tZyN6Wa0" type="slide"/>
-            <slidelink displaytext="5.13 Learning Check" expand="false" slideid="_player.6j4h2cjAuvM.6K2cLt7kOjg" type="slide"/>
-            <slidelink displaytext="5.14 Learning Check" expand="false" slideid="_player.6j4h2cjAuvM.5cHMrJrqNLY" type="slide"/>
-            <slidelink displaytext="5.15 BNP Cartridges" expand="false" slideid="_player.6j4h2cjAuvM.5mO1dL0QzcS" type="slide"/>
-            <slidelink displaytext="5.16 Cardiac Cartridges" expand="false" slideid="_player.6j4h2cjAuvM.5o6jrXgQV1N" type="slide"/>
-            <slidelink displaytext="5.17 Chemistry Cartridges" expand="false" slideid="_player.6j4h2cjAuvM.5mmUFCaBah5" type="slide"/>
-            <slidelink displaytext="5.18 CHEM8+ Cartridges" expand="false" slideid="_player.6j4h2cjAuvM.6fJwJcrpUHj" type="slide"/>
-            <slidelink displaytext="5.19 EC8+ Cartridges" expand="false" slideid="_player.6j4h2cjAuvM.6QNbiZH5Nmz" type="slide"/>
-            <slidelink displaytext="5.20 Arterial Blood Gas (ABG) Cartridges" expand="false" slideid="_player.6j4h2cjAuvM.6D6IQUmhNZo" type="slide"/>
-            <slidelink displaytext="5.21 CG4+ Cartridges" expand="false" slideid="_player.6j4h2cjAuvM.6fmScFhYTcE" type="slide"/>
-            <slidelink displaytext="5.22 ACT Cartridges" expand="false" slideid="_player.6j4h2cjAuvM.69LnwuhMHcr" type="slide"/>
-            <slidelink displaytext="5.23 PT/INR Cartridge" expand="false" slideid="_player.6j4h2cjAuvM.6edOCQ6b2gu" type="slide"/>
-            <slidelink displaytext="5.24 Using an Evacuated Tube to Fill a Cartridge" expand="false" slideid="_player.6j4h2cjAuvM.5ql4F5h5NwI" type="slide"/>
-            <slidelink displaytext="5.25 Using a Dispensing Tip to Fill a Cartridge" expand="false" slideid="_player.6j4h2cjAuvM.6O9M4sPX93K" type="slide"/>
-            <slidelink displaytext="5.26 Using a Syringe to Fill a Cartridge" expand="false" slideid="_player.6j4h2cjAuvM.6YfiEpcA9ZE" type="slide"/>
-            <slidelink displaytext="5.27 Using a Capillary Tube to Fill a Cartridge" expand="false" slideid="_player.6j4h2cjAuvM.61UM0mLPOXS" type="slide"/>
-            <slidelink displaytext="5.28 Running a Patient Test: Immediately after Inserting the Cartridge" expand="false" slideid="_player.6j4h2cjAuvM.6Spd7Q3j7aM" type="slide"/>
-            <slidelink displaytext="5.29 Learning Check" expand="false" slideid="_player.6j4h2cjAuvM.60ZGi7SJiCY" type="slide"/>
-            <slidelink displaytext="5.30 Learning Check" expand="false" slideid="_player.6j4h2cjAuvM.6H1BXvo21WC" type="slide"/>
-            <slidelink displaytext="5.31 Running a Patient Test: Customizable Test Settings" expand="false" slideid="_player.6j4h2cjAuvM.6f5zlhTJFWU" type="slide"/>
-            <slidelink displaytext="5.32 Running a Patient Test: Using the Test Select Function" expand="false" slideid="_player.6j4h2cjAuvM.6obTTqRXzds" type="slide"/>
-            <slidelink displaytext="5.33 Running a Patient Test: Overview of the Chart Page" expand="false" slideid="_player.6j4h2cjAuvM.6ANbkFNWeNX" type="slide"/>
-            <slidelink displaytext="5.34 Chart Page: Entering Sample Type" expand="false" slideid="_player.6j4h2cjAuvM.6S93L3yNQfm" type="slide"/>
-            <slidelink displaytext="5.35 Chart Page: Entering a Patient Temperature" expand="false" slideid="_player.6j4h2cjAuvM.6Fo6tX9Au0b" type="slide"/>
-            <slidelink displaytext="5.36 Chart Page: Entering FIO2" expand="false" slideid="_player.6j4h2cjAuvM.61Ril53jzCC" type="slide"/>
-            <slidelink displaytext="5.37 Chart Page: Entering CPB" expand="false" slideid="_player.6j4h2cjAuvM.6QMTpLqcdtM" type="slide"/>
-            <slidelink displaytext="5.38 Interpreting Test Results: The Results Screen" expand="false" slideid="_player.6j4h2cjAuvM.68sBJVHyY9u" type="slide"/>
-            <slidelink displaytext="5.39 Interpreting Test Results: Reference Range Graphs" expand="false" slideid="_player.6j4h2cjAuvM.6dR2u84mNsV" type="slide"/>
-            <slidelink displaytext="5.40 Interpreting Test Results: Critical Value Alerts" expand="false" slideid="_player.6j4h2cjAuvM.6OAEFFaYz8p" type="slide"/>
-            <slidelink displaytext="5.41 Learning Check" expand="false" slideid="_player.6j4h2cjAuvM.61f74mtySwa" type="slide"/>
-            <slidelink displaytext="5.42 Interpreting Test Results: Out of Reportable Range Flags" expand="false" slideid="_player.6j4h2cjAuvM.6pLKl04mG4y" type="slide"/>
-            <slidelink displaytext="5.43 Interpreting Test Results: Star Outs (***)" expand="false" slideid="_player.6j4h2cjAuvM.6qPVjVJM78G" type="slide"/>
-            <slidelink displaytext="5.44 Responding to Patient Tests: Comment Codes" expand="false" slideid="_player.6j4h2cjAuvM.696q8ZeyXib" type="slide"/>
-            <slidelink displaytext="5.45 Transmitting Results: Downloader" expand="false" slideid="_player.6j4h2cjAuvM.6J6lzlPqxfd" type="slide"/>
-            <slidelink displaytext="5.46 Learning Check" expand="false" slideid="_player.6j4h2cjAuvM.6RZ1qSlMQH3" type="slide"/>
-            <slidelink displaytext="5.47 Transmitting Results: Wireless" expand="false" slideid="_player.6j4h2cjAuvM.5rXJrd6vBCS" type="slide"/>
-            <slidelink displaytext="5.48 Printing Results with a Printer Connected to a Downloader" expand="false" slideid="_player.6j4h2cjAuvM.5a5OIVYGq4k" type="slide"/>
-            <slidelink displaytext="5.49 Printing Results with the i-STAT Portable Printer" expand="false" slideid="_player.6j4h2cjAuvM.6Z9isbFMyzs" type="slide"/>
-            <slidelink displaytext="5.50 Recalling Previous Results: Last Result" expand="false" slideid="_player.6j4h2cjAuvM.6bjFshgEcnZ" type="slide"/>
-            <slidelink displaytext="5.51 Summary" expand="false" slideid="_player.6j4h2cjAuvM.5rHbieNIyg2" type="slide"/>
-            <slidelink displaytext="5.52 Congratulations" expand="false" slideid="_player.6j4h2cjAuvM.6LshIjWpDBy" type="slide"/>
           </links>
         </slidelink>
       </links>

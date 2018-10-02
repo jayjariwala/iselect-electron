@@ -52,7 +52,16 @@ module.exports = function zipGenerator(savePath) {
             indeterminate: false,
             text: 'Generating Micro-lession',
             detail: 'Please Wait...',
-            closeOnComplete: true
+            closeOnComplete: true,
+            style: {
+                bar: {
+                    'width': '100%',
+                    'background-color': '#f0bae0',
+                },
+                value: {
+                    'background-color': '#3f51b5'
+                }
+            }
         });
 
         // good practice to catch this error explicitly
