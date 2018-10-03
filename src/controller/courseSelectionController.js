@@ -21,8 +21,6 @@ module.exports = function (mainWindow, html5json, xmljson) {
     mainWindow.loadURL(`file://${__dirname}/../views/navigation.html`);
     mainWindow.setSize(1080, 600);
     mainWindow.center();
-    mainWindow.webContents.openDevTools();
-
     const template = [{
             label: 'View',
             submenu: [{
