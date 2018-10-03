@@ -27,7 +27,6 @@ const createWindow = () => {
 
   // and load the index.html of the app.
   mainWindow.loadURL(`file://${__dirname}/views/splash.html`);
-  mainWindow.webContents.openDevTools();
 
   treeLoader(xmljson => {
     fetchHtmlFrame(html5json => {
