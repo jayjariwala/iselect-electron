@@ -3,6 +3,8 @@ body {
   padding: 0;
 }
 
+/* fallback */
+
 .splash_container {}
 
 .stick-to-right {

@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./assets/css/default/style.min.css" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
   <link rel="stylesheet" href="./assets/css/material.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
 </head>
 
 <body>
@@ -34,7 +34,10 @@ mdl-layout--fixed-header">
       <h5 class="text-center">Templates</h5>
       <div class="button-container">
         <button id="show-template-dialog" class="mdl-button mdl-js-button add-icon align-center mdl-button--fab mdl-button--mini-fab mdl-button--colored">
-          <i class="material-icons ">add</i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
+            <path d="M0 0h24v24H0z" fill="none" />
+          </svg>
         </button>
       </div>
       <!-- Colored mini FAB button -->
@@ -84,7 +87,11 @@ mdl-layout--fixed-header">
       </dialog>
       <dialog class="mdl-dialog error-dialog">
         <h6 class="mdl-dialog__title error-title">
-          <i class="material-icons err-icon">error</i>Topic Selection</h6>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" />
+          </svg>
+          Topic Selection</h6>
         <div class="mdl-dialog__content">
           <!-- Numeric Textfield -->
           <p class="error-message">Please select course topics</p>
