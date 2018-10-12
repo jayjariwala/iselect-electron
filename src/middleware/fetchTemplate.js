@@ -12,7 +12,7 @@ function formatTemplates(templates, activeTemp) {
                 <span>${templateList.template}</span>
             <button type="button" class="mdl-chip__action del-icon" >
               <i class="material-icons del" data-id="${templateList.tempId}">
-              🗑️
+              delete
               </i>
             </button>
           </a>`
@@ -21,7 +21,7 @@ function formatTemplates(templates, activeTemp) {
                     <span>${templateList.template}</span>
                     <button type="button" class="mdl-chip__action del-icon" >
                       <i class="material-icons del" data-id="${templateList.tempId}">
-                      🗑️
+                      delete
                       </i>
                     </button>
                   </a>`
@@ -32,7 +32,7 @@ function formatTemplates(templates, activeTemp) {
                 <span>${templateList.template}</span>
                 <button type="button" class="mdl-chip__action del-icon" >
                   <i class="material-icons del" data-id="${templateList.tempId}">
-                  🗑️
+                  delete
                   </i>
                 </button>
               </a>`
@@ -41,7 +41,7 @@ function formatTemplates(templates, activeTemp) {
                     <span>${templateList.template}</span>
                     <button type="button" class="mdl-chip__action del-icon" >
                       <i class="material-icons del" data-id="${templateList.tempId}">
-                      🗑
+                      delete
                       </i>
                     </button>
                   </a>`
