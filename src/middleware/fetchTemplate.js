@@ -11,14 +11,18 @@ function formatTemplates(templates, activeTemp) {
                 return `<a class="mdl-navigation__link current" href="#" data-id="${templateList.treeSelection}" data-tid="${templateList.tempId}" >
                 <span>${templateList.template}</span>
             <button type="button" class="mdl-chip__action del-icon" >
-              <i class="material-icons del" data-id="${templateList.tempId}">delete</i>
+              <i class="material-icons del" data-id="${templateList.tempId}">
+              🗑️
+              </i>
             </button>
           </a>`
             } else {
                 return `<a class="mdl-navigation__link" href="#" data-id="${templateList.treeSelection}" data-tid="${templateList.tempId}" >
                     <span>${templateList.template}</span>
                     <button type="button" class="mdl-chip__action del-icon" >
-                      <i class="material-icons del" data-id="${templateList.tempId}">delete</i>
+                      <i class="material-icons del" data-id="${templateList.tempId}">
+                      🗑️
+                      </i>
                     </button>
                   </a>`
             }
@@ -27,14 +31,18 @@ function formatTemplates(templates, activeTemp) {
                 return `<a class="mdl-navigation__link current" href="#" data-id="${templateList.treeSelection}" data-tid="${templateList.tempId}" >
                 <span>${templateList.template}</span>
                 <button type="button" class="mdl-chip__action del-icon" >
-                  <i class="material-icons" data-id="${templateList.tempId}">delete</i>
+                  <i class="material-icons del" data-id="${templateList.tempId}">
+                  🗑️
+                  </i>
                 </button>
               </a>`
             } else {
                 return `<a class="mdl-navigation__link" href="#" data-id="${templateList.treeSelection}" data-tid="${templateList.tempId}" >
                     <span>${templateList.template}</span>
                     <button type="button" class="mdl-chip__action del-icon" >
-                      <i class="material-icons" data-id="${templateList.tempId}">delete</i>
+                      <i class="material-icons del" data-id="${templateList.tempId}">
+                      🗑
+                      </i>
                     </button>
                   </a>`
             }

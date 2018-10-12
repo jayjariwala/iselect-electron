@@ -8,6 +8,7 @@ const treeLoader = require('./middleware/treeloader.js');
 const generateXML = require('./middleware/generateXML.js');
 const courseSelectionController = require('./controller/courseSelectionController');
 const fetchHtmlFrame = require('./middleware/fetchHtmlFrame.js');
+const path = require('path');
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require('electron-squirrel-startup')) { // eslint-disable-line global-require
@@ -23,6 +24,7 @@ const createWindow = () => {
   mainWindow = new BrowserWindow({
     width: 500,
     height: 300,
+    icon: path.join(__dirname, 'views', 'assets', 'img', 'icons', '64x64.png')
   });
 
   // and load the index.html of the app.

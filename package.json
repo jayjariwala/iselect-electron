@@ -29,7 +29,8 @@
         ]
       },
       "electronPackagerConfig": {
-        "packageManager": "npm"
+        "packageManager": "npm",
+        "icon": "src/views/assets/img/app-icon.icns"
       },
       "electronWinstallerConfig": {
         "name": "forge_demo"
@@ -42,7 +43,7 @@
       },
       "windowsStoreConfig": {
         "packageName": "",
-        "name": "forgedemo"
+        "name": "iselect"
       }
     }
   },
