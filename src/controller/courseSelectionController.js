@@ -84,6 +84,9 @@ module.exports = function (mainWindow, html5json, xmljson) {
                                 extensions: ['zip']
                             }]
                         }, (savePath) => {
+                            if(savePath === undefined) {
+                                return;
+                            }
                             zipGenerator(savePath).then((res) => {
                                 if (res) {
                                     mainWindow.webContents.send('savedFile', savePath);

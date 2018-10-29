@@ -21,9 +21,9 @@ module.exports = function zipGenerator(savePath) {
         output.on('close', function () {
             progressBar.detail = 'Task completed. Exiting...';
             progressBar.setCompleted();
+            resolve(true);
             console.log(archive.pointer() + ' total bytes');
             console.log('archiver has been finalized and the output file descriptor has closed.');
-            resolve(true);
         });
 
         // This event is fired when the data source is drained no matter what was the data source.
